@@ -1,0 +1,102 @@
+.re-contract-details{
+    .width(100%);
+    .background(@colorRice);
+
+    .re-contract-header{
+        .height(0.82rem);
+        .width(100%);
+        .color(@colorBlack);
+        .lineHeight(0.82rem);
+        .background(@colorWhite);
+        .borderBottom(0.01rem @colorRice);
+        i{
+            .color(@colorTiger);
+            .marginLeft(0.24rem);
+
+        };
+        span{
+            .fontSize(0.31rem);
+            .marginLeft(0.18rem);
+        };
+        img{
+            .width(0.14rem) ;
+            .marginLeft(3.30rem);
+        }
+    };
+    .re-contract-main{
+        .background(@colorWhite);
+        .padding(0.08rem 0);
+        .marginBottom(0.21rem);
+
+        li{
+            .color(@colorGrey);
+            .fontSize(0.27rem);
+            .padding(0 0.26rem);
+            .lineHeight(0.56rem);
+        };
+        span{
+            .float(left);
+        };
+        span:nth-child(1){
+            .width(0.54rem);
+            .marginRight(0.32rem);
+        };
+        span:nth-child(2){
+            .color(@colorBlack);
+        };
+        p{
+//              .width(90%);
+            .color(@colorBlack);
+            .float(left);
+            .padding(0 0.86rem);
+        }
+    };
+    .re-detailed{
+        .width(100%);
+        .background(@colorWhite);
+        .re-detailed-header{
+            .textAlign(center);
+            .lineHeight(0.92rem);
+            .marginBottom(0.21rem);
+            .borderBottom(0.01rem @colorRice);
+            span{
+                .color(@colorTiger);
+                .fontSize(0.24rem);
+            };
+            img{
+                .width(0.20rem);
+                .height(0.18rem);
+                .marginLeft(0.10rem);
+
+            }
+        };
+        .re-detailed-main{
+            .width(100%);
+            .color(@colorBlack);
+            li{
+                .width(100%);
+                .textAlign(center);
+                .height(0.94rem);
+                .lineHeight(0.94rem);
+                .borderBottom(0.01rem @colorRice);
+                span{
+                    .display(block);
+                    .width(25%);
+                    .float(left);
+                };
+
+            };
+            li:nth-child(1){
+                .background(@colorCantaloupe);
+                .color(@colorTiger);
+                .height(0.69rem);
+                .lineHeight(0.69rem);
+            };
+            li:not(:first-child){
+                span:nth-child(4){
+                    .color(@colorGrey);
+                }
+            }
+        }
+    };
+};

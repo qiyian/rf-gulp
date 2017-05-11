@@ -1,0 +1,197 @@
+[type=tpl] {
+  display: none;
+}
+
+@baseColor: #ee574d;
+
+
+@colorBlack:#000000;
+@colorArctic:#00cbca;
+@colorSapphire：#018c77;
+@colorCerulean:#1fabc6;
+@colorFern:#5ac25f ;
+@colorCharcoal:#707070;
+@colorArctic:#73e0d4;
+@colorGrey:#a0a0a0;
+@colorCloud:#bbbbbc;
+@colorBlush:#c74f58;
+@colorCloud:#c9c9c9;
+@colorApple:#e8382c ;
+@colorTiger:#f46d23;
+@colorTangerine:#f7953e;
+@colorDaisy:#f8f8f8;
+@colorWhite:#ffffff;
+@colorRice:#f6f6f6;
+@colorCantaloupe:#fef5ef;
+@colorPearl:#e1e1e1;
+
+.background(@color){
+    background: @color;
+}
+.width(@number){
+    width: @number;
+}
+.height(@number){
+    height: @number;
+}
+.padding(@number){
+    padding: @number;
+}
+.paddingTop(@number){
+    padding-top: @number;
+}
+.paddingLeft(@number){
+    padding-left: @number;
+}
+.margin(@number){
+    margin: @number;
+}
+.marginTop(@number){
+    margin-top: @number;
+}
+.marginLeft(@number){
+    margin-left: @number;
+}
+.marginRight(@number){
+    margin-right: @number;
+}
+.marginBottom(@number){
+    margin-bottom: @number;
+}
+.display(@pixel){
+    display:@pixel ;
+}
+.lineHeight(@number){
+    line-height: @number;
+}
+.fontSize(@number){
+    font-size: @number;
+}
+.color(@color){
+    color: @color;
+}
+.borderBottom(@number){
+    border-bottom: solid @number;
+}
+.borderTop(@number){
+    border-top: solid @number;
+}
+.border(@number){
+    border: solid @number;
+}
+.borderRight(@number){
+    border-right:solid @number;
+}
+.margin(@number){
+    margin: @number;
+}
+.float(@pixel){
+    float: @pixel;
+}
+.position(@pixel){
+    position: @pixel;
+}
+.top(@number){
+    top: @number;
+}
+.left(@number){
+    left: @number;
+}
+.zIndex(@number){
+    z-index: @number;
+}
+.textAlign(@pixel){
+    text-align: @pixel;
+}
+.overflow(@pixel){
+    overflow: @pixel;
+
+}
+.borderRadius(@number){
+    border-radius: @number;
+}
+.opcity(@number){
+    opacity: @number;
+
+}
+.fontWeight(@number){
+    font-weight: @number;
+}
+.top(@number){
+    top: @number;
+}
+.bottom(@number){
+    bottom: @number;
+}
+.left(@number){
+    left: @number;
+}
+.right(@number){
+    right: @number;
+}
+.backgroundSize(@number){
+    background-size: @number;
+
+}
+.boxShadow(@pixel){
+    box-shadow: @pixel;
+}
+
+
+
+
+.re-hide{
+    display: none;
+}
+.re-show{
+    display: block;
+}
+.re-clear{
+    clear: both;
+}
+.re-tiger{
+    color: @colorTiger;
+}
+
+body,html{
+    .width(100%);
+}
+
+// 弹出模态框
+.re-mask{
+    .width(100%);
+    .height(100%);
+    .position(fixed);
+    .top(0);
+    .left(0);
+    .background(@colorBlack);
+    opacity: 0.5;
+
+};
+
+//按钮部分
+.re-login-footer{
+    .margin(0.42rem 0);
+    .re-submit-btn{
+        .position(relative);
+        .display(block);
+        .width(91%);
+        .height(0.89rem);
+        .fontSize(0.3rem);
+        .textAlign(center);
+        .lineHeight(0.89rem);
+        .margin(0 auto);
+        .background(@colorTiger);
+        .borderRadius(0.1rem);
+
+    };
+    p{
+        .height(0.56rem);
+        .lineHeight(0.56rem);
+        .textAlign(center);
+        .width(91%);
+        .margin(0 auto);
+        .fontSize(0.2rem);
+        .color(@colorGrey);
+    };
+};

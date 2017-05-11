@@ -1,0 +1,26 @@
+<div class="re-system-massage">
+	<div>
+		<p>
+			<span>还款成功</span>
+			<span>20:20</span>
+		<p>您的房租分期成功还款400.00元</p>
+	</div>
+	<div>
+		<p>
+			<span>首期未还款提示</span>
+			<span>20:20</span>
+		<p>您申请的租房分期首期未还</p>
+	</div>
+	<div>
+		<p>
+			<span>逾期提示</span>
+			<span>20:20</span>
+		<p>您申请的租房分期首期未还</p>
+	</div>
+	<div>
+		<p>
+			<span>还款提醒</span>
+			<span>20:20</span>
+		<p>您申请的租房分期首期未还</p>
+	</div>
+</div>

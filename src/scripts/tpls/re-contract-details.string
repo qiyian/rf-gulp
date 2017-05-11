@@ -1,0 +1,74 @@
+<div class="re-contract-details">
+	<p class="re-contract-header">
+			<i>123</i>
+			<span>租房信息</span>
+		</p>
+		<ul class="re-contract-main">
+			<li>
+				<span>租期</span>
+				<span>2017-03-08至2017-03-28</span>
+				<p>共12个月</p>
+				<div class="re-clear"></div>
+			</li>
+			<li>
+				<span>租金</span>
+				<span>共10000.00元</span>
+				<div class="re-clear"></div>
+			</li>
+			<li>
+				<span>地址</span>
+				<span>北京市昌平区回龙观美唐小区一单元202-A</span>
+				<div class="re-clear"></div>
+			</li>
+			<li><span>公寓</span>
+				<span>海华公寓</span>
+				<div class="re-clear"></div>
+			</li>
+		</ul>
+		<div class="re-detailed">
+			<div class="re-detailed-header">
+				<span>还款明细</span>
+				<img src="images/re-up.png"/>
+			</div>
+			<ul class="re-detailed-main">
+				<li>
+					<span>期次</span>
+					<span>金额</span>
+					<span>时间</span>
+					<span>状态</span>
+				</li>
+				<li>
+					<span>第一期</span>
+					<span>1000.00元/月</span>
+					<span>2017-03-29</span>
+				<span>未还清</span>
+				</li>
+				<li>
+					<span>第二期</span>
+					<span>1000.00元/月</span>
+					<span>2017-03-29</span>
+				<span>未还清</span>
+
+				</li>
+				<li>
+					<span>第三期</span>
+					<span>1000.00元/月</span>
+					<span>2017-03-29</span>
+				<span>已还清</span>
+
+				</li>
+				<li>
+					<span>第四期</span>
+					<span>1000.00元/月</span>
+					<span>2017-03-29</span>
+				<span>已还清</span>
+
+				</li>
+			</ul>
+	 </div>
+	 <p class="re-contract-header">
+			<i>123</i>
+			<span>查看电子合同</span>
+			<img src="images/re-right.png" alt="" />
+		</p>
+</div>

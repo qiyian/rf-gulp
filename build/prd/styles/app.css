@@ -1,0 +1,1528 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+*:not(input,textarea) {
+  -webkit-touch-callout: inherit;
+  -webkit-user-select: auto;
+}
+body {
+  width: 100%;
+  font-family: Microsoft Yahei, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  -webkit-touch-callout: inherit ;
+  -webkit-user-select: auto ;
+  background-color: #fff;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  color: #ffffff;
+}
+a:active {
+  color: #ffffff;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+dt,
+dd {
+  display: inline-block;
+}
+textarea,
+input {
+  resize: none;
+  outline: none;
+  background: none;
+  border: 0;
+}
+textarea {
+  resize: none;
+  -webkit-appearance: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
+i {
+  font-style: normal;
+}
+b {
+  font-weight: normal;
+}
+input,
+select {
+  -webkit-appearance: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?69135u');
+  src: url('fonts/icomoon.eot?69135u#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?69135u') format('truetype'), url('fonts/icomoon.woff?69135u') format('woff'), url('fonts/icomoon.svg?69135u#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-rs-alreadycollection2 .path1:before {
+  content: "\e952";
+  color: #999999;
+}
+.icon-rs-alreadycollection2 .path2:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: #999999;
+}
+.icon-rs-alreadycollection2 .path3:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.icon-rs-alreadypassed .path1:before {
+  content: "\e95c";
+  color: #faaf00;
+}
+.icon-rs-alreadypassed .path2:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.icon-rs-auditing:before {
+  content: "\e95e";
+}
+.icon-rs-normal:before {
+  content: "\e95f";
+}
+.icon-rs-normalsettlement:before {
+  content: "\e960";
+}
+.icon-rs-overdue:before {
+  content: "\e961";
+}
+.icon-rs-pendingpayment2:before {
+  content: "\e963";
+}
+.icon-rs-refundsettlement:before {
+  content: "\e965";
+}
+.icon-rs-refused:before {
+  content: "\e966";
+}
+.icon-rs-return:before {
+  content: "\e967";
+}
+.icon-rs-stage1notrepayment:before {
+  content: "\e968";
+}
+.icon-rs-waiterefund2:before {
+  content: "\e969";
+}
+.icon-rs-aboutus:before {
+  content: "\e96a";
+}
+.icon-rs-alreadycollection .path1:before {
+  content: "\e96c";
+  color: #f94e4e;
+}
+.icon-rs-alreadycollection .path2:before {
+  content: "\e96d";
+  margin-left: -1em;
+  color: #f94e4e;
+}
+.icon-rs-alreadycollection .path3:before {
+  content: "\e96e";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.icon-rs-apartment:before {
+  content: "\e96f";
+}
+.icon-rs-customerservice:before {
+  content: "\e970";
+}
+.icon-rs-help:before {
+  content: "\e974";
+}
+.icon-rs-homepage:before {
+  content: "\e977";
+}
+.icon-rs-pact .path1:before {
+  content: "\e978";
+  color: #808080;
+}
+.icon-rs-pact .path2:before {
+  content: "\e979";
+  margin-left: -1em;
+  color: #666666;
+}
+.icon-rs-pact .path3:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: #666666;
+}
+.icon-rs-pact .path4:before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: #666666;
+}
+.icon-rs-pact .path5:before {
+  content: "\e97c";
+  margin-left: -1em;
+  color: #666666;
+}
+.icon-rs-pact .path6:before {
+  content: "\e97d";
+  margin-left: -1em;
+  color: #666666;
+}
+.icon-rs-pendingpayment:before {
+  content: "\e97e";
+}
+.icon-rs-refunded:before {
+  content: "\e97f";
+}
+.icon-rs-resetpassword .path1:before {
+  content: "\e980";
+  color: #f94e4e;
+}
+.icon-rs-resetpassword .path2:before {
+  content: "\e981";
+  margin-left: -1em;
+  color: #f94e4e;
+}
+.icon-rs-resetpassword .path3:before {
+  content: "\e982";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.icon-rs-settlementaccount:before {
+  content: "\e983";
+}
+.icon-rs-thehousing:before {
+  content: "\e984";
+}
+.icon-rs-waiterefund:before {
+  content: "\e985";
+}
+.icon-bed3:before {
+  content: "\e94d";
+}
+.icon-psfindapartment:before {
+  content: "\e943";
+}
+.icon-arrow:before {
+  content: "\e930";
+}
+.icon-commit:before {
+  content: "\e931";
+}
+.icon-costlyfurniture:before {
+  content: "\e932";
+}
+.icon-design:before {
+  content: "\e933";
+}
+.icon-file:before {
+  content: "\e934";
+}
+.icon-greendecorate:before {
+  content: "\e935";
+}
+.icon-insurance:before {
+  content: "\e936";
+}
+.icon-regularlyclean:before {
+  content: "\e937";
+}
+.icon-renthouse:before {
+  content: "\e938";
+}
+.icon-renthouse2:before {
+  content: "\e939";
+}
+.icon-renthouse3:before {
+  content: "\e93c";
+}
+.icon-repair:before {
+  content: "\e93d";
+}
+.icon-review:before {
+  content: "\e93e";
+}
+.icon-saveworrymoney:before {
+  content: "\e940";
+}
+.icon-wifi:before {
+  content: "\e941";
+}
+.icon-airconditioning2:before {
+  content: "\e92f";
+}
+.icon-atm:before {
+  content: "\e92a";
+}
+.icon-airconditioning:before {
+  content: "\e916";
+}
+.icon-bed2:before {
+  content: "\e917";
+}
+.icon-brandapartment:before {
+  content: "\e918";
+}
+.icon-cleaner:before {
+  content: "\e919";
+}
+.icon-closeservice:before {
+  content: "\e91a";
+}
+.icon-desk2:before {
+  content: "\e91b";
+}
+.icon-electromagneticoven:before {
+  content: "\e91c";
+}
+.icon-furniture:before {
+  content: "\e91d";
+}
+.icon-gas2:before {
+  content: "\e91e";
+}
+.icon-home:before {
+  content: "\e91f";
+}
+.icon-homewifi:before {
+  content: "\e920";
+}
+.icon-leaf:before {
+  content: "\e921";
+}
+.icon-lock:before {
+  content: "\e922";
+}
+.icon-microwareoven:before {
+  content: "\e923";
+}
+.icon-repairservice:before {
+  content: "\e924";
+}
+.icon-savemoney:before {
+  content: "\e925";
+}
+.icon-servicepromise:before {
+  content: "\e926";
+}
+.icon-wardrobe2:before {
+  content: "\e927";
+}
+.icon-waterheater2:before {
+  content: "\e928";
+}
+.icon-wifi22:before {
+  content: "\e929";
+}
+.icon-bed:before {
+  content: "\e900";
+}
+.icon-clean:before {
+  content: "\e901";
+}
+.icon-cupboard:before {
+  content: "\e902";
+}
+.icon-customservice:before {
+  content: "\e903";
+}
+.icon-desk:before {
+  content: "\e904";
+}
+.icon-diningtable:before {
+  content: "\e905";
+}
+.icon-express:before {
+  content: "\e906";
+}
+.icon-gas:before {
+  content: "\e907";
+}
+.icon-gym:before {
+  content: "\e908";
+}
+.icon-heating:before {
+  content: "\e909";
+}
+.icon-inductioncooker:before {
+  content: "\e90a";
+}
+.icon-intelligentlock:before {
+  content: "\e90b";
+}
+.icon-microwaveoven:before {
+  content: "\e90c";
+}
+.icon-rangehood:before {
+  content: "\e90d";
+}
+.icon-refrigerator:before {
+  content: "\e90e";
+}
+.icon-sofa:before {
+  content: "\e90f";
+}
+.icon-supermarket:before {
+  content: "\e910";
+}
+.icon-tv:before {
+  content: "\e911";
+}
+.icon-wardrobe:before {
+  content: "\e912";
+}
+.icon-washingmachine:before {
+  content: "\e913";
+}
+.icon-waterheater:before {
+  content: "\e914";
+}
+.icon-wifi2:before {
+  content: "\e915";
+}
+.icon-music:before {
+  content: "\e92b";
+}
+.icon-mic:before {
+  content: "\e92c";
+}
+.icon-book:before {
+  content: "\e92d";
+}
+.icon-books:before {
+  content: "\e92e";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-coin-dollar:before {
+  content: "\e93b";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-map:before {
+  content: "\e94b";
+}
+.icon-map2:before {
+  content: "\e94c";
+}
+.icon-clock2:before {
+  content: "\e94f";
+}
+.icon-alarm:before {
+  content: "\e950";
+}
+.icon-bell:before {
+  content: "\e951";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-printer:before {
+  content: "\e954";
+}
+.icon-keyboard:before {
+  content: "\e955";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-mobile2:before {
+  content: "\e959";
+}
+.icon-tv2:before {
+  content: "\e95b";
+}
+.icon-floppy-disk:before {
+  content: "\e962";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-bubble:before {
+  content: "\e96b";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-key:before {
+  content: "\e98d";
+}
+.icon-key2:before {
+  content: "\e98e";
+}
+.icon-lock2:before {
+  content: "\e98f";
+}
+.icon-unlocked:before {
+  content: "\e990";
+}
+.icon-aid-kit:before {
+  content: "\e998";
+}
+.icon-gift:before {
+  content: "\e99f";
+}
+.icon-mug:before {
+  content: "\e9a2";
+}
+.icon-spoon-knife:before {
+  content: "\e9a3";
+}
+.icon-truck:before {
+  content: "\e9b0";
+}
+.icon-man:before {
+  content: "\e9dc";
+}
+.icon-woman:before {
+  content: "\e9dd";
+}
+.icon-man-woman:before {
+  content: "\e9de";
+}
+.icon-enter:before {
+  content: "\ea13";
+}
+.icon-exit:before {
+  content: "\ea14";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+.icon-home2:before {
+  content: "\e944";
+}
+.icon-office:before {
+  content: "\e946";
+}
+.icon-pencil:before {
+  content: "\e94a";
+}
+.icon-coin-yen:before {
+  content: "\e94e";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-user-plus:before {
+  content: "\e973";
+}
+.icon-user-check:before {
+  content: "\e975";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-zoom-in:before {
+  content: "\e987";
+}
+.icon-notification:before {
+  content: "\ea08";
+}
+.icon-question:before {
+  content: "\ea09";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
+}
+.icon-blocked:before {
+  content: "\ea0e";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+[type=tpl] {
+  display: none;
+}
+@color Sapphire：#018c77;
+.re-hide {
+  display: none;
+}
+.re-show {
+  display: block;
+}
+.re-clear {
+  clear: both;
+}
+.re-tiger {
+  color: #f46d23;
+}
+body,
+html {
+  width: 100%;
+}
+.re-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000000;
+  opacity: 0.5;
+}
+.re-login-footer {
+  margin: 0.42rem 0;
+}
+.re-login-footer .re-submit-btn {
+  position: relative;
+  display: block;
+  width: 91%;
+  height: 0.89rem;
+  font-size: 0.3rem;
+  text-align: center;
+  line-height: 0.89rem;
+  margin: 0 auto;
+  background: #f46d23;
+  border-radius: 0.1rem;
+}
+.re-login-footer p {
+  height: 0.56rem;
+  line-height: 0.56rem;
+  text-align: center;
+  width: 91%;
+  margin: 0 auto;
+  font-size: 0.2rem;
+  color: #a0a0a0;
+}
+.re-index {
+  width: 100%;
+  height: 100%;
+  background: #f6f6f6;
+  position: relative;
+}
+.re-index .re-index-user {
+  width: 100%;
+  height: 2.78rem;
+  background: #000000;
+  text-align: center;
+}
+.re-index .re-index-user img {
+  width: 1.13rem;
+  height: 1.12rem;
+  margin-top: 0.32rem;
+}
+.re-index .re-index-user p {
+  font-size: 0.28rem;
+  line-height: 0.8rem;
+}
+.re-index .re-index-main {
+  width: 5.72rem;
+  height: 8.01rem;
+  background: #f6f6f6;
+  position: absolute;
+  top: 2.29rem;
+  left: 0.34rem;
+  border-top: solid 0.01rem #f6f6f6;
+  border-radius: 0.1rem;
+}
+.re-index .re-index-main .re-repayment-information {
+  width: 5.72rem;
+  background: #ffffff;
+  border-radius: 0.1rem;
+  margin-bottom: 0.2rem;
+}
+.re-index .re-index-main .re-repayment-information .re-main-header {
+  height: 0.77rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+  color: #000000;
+}
+.re-index .re-index-main .re-repayment-information .re-main-header img {
+  width: 0.3rem;
+  height: 0.34rem;
+  margin-left: 0.38rem;
+  margin-top: 0.24rem;
+  float: left;
+}
+.re-index .re-index-main .re-repayment-information .re-main-header span {
+  float: left;
+  width: 3rem;
+  height: 100%;
+  line-height: 0.77rem;
+  margin-left: 0.19rem;
+  font-size: 0.28rem;
+}
+.re-index .re-index-main .re-repayment-information .re-nomassage {
+  text-align: center;
+}
+.re-index .re-index-main .re-repayment-information .re-nomassage img {
+  width: 0.86rem;
+  margin-top: 0.26rem;
+}
+.re-index .re-index-main .re-repayment-information .re-nomassage p {
+  font-size: 0.26rem;
+  color: #a0a0a0;
+  line-height: 0.78rem;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage {
+  width: 100%;
+  height: 1.96rem;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage .re-hasmassage-main {
+  color: #000000;
+  width: 3rem;
+  float: left;
+  margin-top: 0.1rem;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage .re-hasmassage-main li {
+  height: 0.55rem;
+  line-height: 0.55rem;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage .re-hasmassage-main li p {
+  float: left;
+  margin-left: 0.38rem;
+  font-size: 0.26rem;
+  color: #a0a0a0;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage .re-hasmassage-main li span {
+  float: left;
+  margin-left: 0.2rem;
+  font-size: 0.26rem;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage .re-hasmassage-btn {
+  float: right;
+  width: 1.59rem;
+  height: 0.58rem;
+  background: #f46d23;
+  text-align: center;
+  line-height: 0.58rem;
+  margin-top: 0.69rem;
+  margin-right: 0.33rem;
+  border-radius: 0.1rem;
+}
+.re-index .re-index-main .re-index-select {
+  width: 5.72rem;
+  height: 3.37rem;
+  background: #ffffff;
+  border-radius: 0.1rem;
+}
+.re-index .re-index-main .re-index-select li {
+  width: 33.3%;
+  height: 0.99rem;
+  margin: 0.37rem 0;
+  float: left;
+  text-align: center;
+  color: #000000;
+}
+.re-index .re-index-main .re-index-select p {
+  line-height: 0.72rem;
+}
+.re-index .re-index-main .re-phone {
+  width: 5.72rem;
+  height: 0.87rem;
+  background: #ffffff;
+  text-align: center;
+  color: #000000;
+  font-size: 0.29rem;
+  line-height: 0.87rem;
+  margin-top: 0.46rem;
+  border-radius: 0.1rem;
+}
+.re-prompt-box {
+  width: 4.42rem;
+  height: 2.15rem;
+  position: fixed;
+  top: 3.63rem;
+  left: 0.98rem;
+  background: #ffffff;
+  border-radius: 0.1rem;
+  border: solid 0.01rem #a0a0a0;
+  overflow: hidden;
+}
+.re-prompt-box p {
+  color: #000000;
+  font-size: 0.33rem;
+  text-align: center;
+  font-weight: 500;
+  line-height: 0.55rem;
+}
+.re-prompt-box p:nth-child(1) {
+  margin-top: 0.17rem;
+}
+.re-prompt-box p:nth-child(2) {
+  font-size: 0.23rem;
+  margin-bottom: 0.17rem;
+}
+.re-prompt-box .re-promptbox-btn {
+  border-top: solid 0.01rem #f8f8f8;
+  width: 100%;
+  height: 0.77rem;
+}
+.re-prompt-box .re-promptbox-btn a {
+  float: left;
+  width: 2.2rem;
+  height: 0.77rem;
+  color: #f46d23;
+  text-align: center;
+  line-height: 0.77rem;
+  font-size: 0.28rem;
+}
+.re-prompt-box .re-promptbox-btn a:nth-child(1) {
+  border-right: solid 0.01rem #f8f8f8;
+}
+.re-header {
+  text-align: center;
+  margin: 0.38rem 0;
+}
+.re-header img {
+  width: 26.5%;
+}
+.re-main {
+  padding: 0.7rem 0;
+}
+.re-main .re-ipt {
+  margin: 0 auto;
+  width: 84%;
+}
+.re-main .re-ipt div {
+  border-bottom: solid 0.01rem #f8f8f8;
+  height: 0.73rem;
+  font-size: 0.28rem;
+  color: #a0a0a0;
+  line-height: 0.73rem;
+  overflow: hidden;
+}
+.re-main .re-ipt div span {
+  float: left;
+}
+.re-main .re-ipt div input {
+  width: 2rem;
+  height: 100%;
+  margin: 0rem 0.13rem;
+  float: left;
+}
+.re-main .re-ipt div .re-code {
+  float: left;
+  height: 0.51rem;
+  width: 1.53rem;
+  line-height: 0.51rem;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  margin-top: 0.1rem;
+}
+.re-main .re-ipt div .re-code span {
+  position: absolute;
+  top: 0;
+  left: 0.22rem;
+  font-size: 0.22rem;
+}
+.re-main .re-ipt div .re-code img {
+  width: 100%;
+  height: 100%;
+}
+.re-main .re-ipt p {
+  color: #a0a0a0;
+  font-size: 0.22rem;
+  line-height: 0.52rem;
+}
+.re-main .re-loginmode {
+  width: 84%;
+  margin: 0 auto;
+  margin-top: 0.15rem;
+  height: 0.87rem;
+}
+.re-main .re-loginmode .re-login-mode {
+  height: 0.87rem;
+  display: block;
+  line-height: 0.87rem;
+  font-size: 0.28rem;
+  color: #f46d23;
+  float: left;
+}
+.re-main .re-loginmode .re-login-forget {
+  height: 0.87rem;
+  display: block;
+  line-height: 0.87rem;
+  font-size: 0.28rem;
+  color: #f46d23;
+  float: right;
+}
+.re-personal-data {
+  background: #f6f6f6;
+}
+.re-personal-data .re-personmian {
+  width: 100%;
+  height: 1.92rem;
+  margin: 0rem auto;
+  background: #ffffff;
+  border-bottom: solid 0.01rem #f8f8f8;
+  border-top: solid 0.01rem #f8f8f8;
+}
+.re-personal-data .re-personmian div {
+  width: 93%;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  font-size: 0.26rem;
+  margin: 0 auto;
+  border-bottom: solid 0.01rem #f8f8f8;
+  overflow: hidden;
+}
+.re-personal-data .re-personmian div p {
+  float: left;
+  width: 2rem;
+  color: #a0a0a0;
+}
+.re-personal-data .re-personmian div span {
+  display: block;
+  font-size: 0.27rem;
+  color: #000000;
+  text-align: right;
+  float: right;
+}
+.re-personal-data .re-personmian div:nth-child(2) {
+  border-bottom: solid 0;
+}
+.re-personal-data .re-personmian:nth-child(1) {
+  margin-bottom: 0.19rem;
+}
+.re-persion-massage {
+  background: #f6f6f6;
+}
+.re-persion-massage .re-persion {
+  background: #f6f6f6;
+  margin-bottom: 0.21rem;
+}
+.re-persion-massage .re-persion .re-persion-header {
+  height: 0.79rem;
+  width: 100%;
+  color: #000000;
+  line-height: 0.79rem;
+  margin-bottom: 0.05rem;
+  background: #ffffff;
+}
+.re-persion-massage .re-persion .re-persion-header i {
+  color: #f46d23;
+  margin-left: 0.24rem;
+}
+.re-persion-massage .re-persion .re-persion-header span {
+  font-size: 0.3rem;
+  margin-left: 0.18rem;
+}
+.re-persion-massage .re-persion .re-persion-main {
+  background: #ffffff;
+  padding: 0.08rem 0;
+}
+.re-persion-massage .re-persion .re-persion-main li {
+  color: #a0a0a0;
+  font-size: 0.26rem;
+  padding: 0 0.26rem;
+  line-height: 0.56rem;
+  height: 0.56rem;
+}
+.re-persion-massage .re-persion .re-persion-main span {
+  float: left;
+}
+.re-persion-massage .re-persion .re-persion-main span:nth-child(1) {
+  width: 1.1rem;
+  margin-right: 0.32rem;
+  text-align-last: justify;
+}
+.re-persion-massage .re-persion .re-persion-main span:nth-child(2) {
+  color: #000000;
+}
+.re-persion-massage .re-home-massage {
+  background: #f6f6f6;
+  margin-bottom: 0.21rem;
+}
+.re-persion-massage .re-home-massage .re-home-header {
+  height: 0.82rem;
+  width: 100%;
+  color: #000000;
+  line-height: 0.82rem;
+  margin-bottom: 0.05rem;
+  background: #ffffff;
+}
+.re-persion-massage .re-home-massage .re-home-header i {
+  color: #f46d23;
+  margin-left: 0.24rem;
+}
+.re-persion-massage .re-home-massage .re-home-header span {
+  font-size: 0.3rem;
+  margin-left: 0.18rem;
+}
+.re-persion-massage .re-home-massage .re-home-main {
+  background: #ffffff;
+  padding: 0.08rem 0;
+}
+.re-persion-massage .re-home-massage .re-home-main li {
+  color: #a0a0a0;
+  font-size: 0.26rem;
+  padding: 0 0.26rem;
+  line-height: 0.56rem;
+}
+.re-persion-massage .re-home-massage .re-home-main span {
+  float: left;
+}
+.re-persion-massage .re-home-massage .re-home-main span:nth-child(1) {
+  width: 1.1rem;
+  margin-right: 0.32rem;
+  text-align-last: justify;
+}
+.re-persion-massage .re-home-massage .re-home-main span:nth-child(2) {
+  color: #000000;
+}
+.re-persion-massage .re-home-massage .re-home-main p {
+  color: #000000;
+  float: left;
+  padding: 0 1.4rem;
+}
+.re-persion-massage .re-detailed {
+  width: 100%;
+  background: #ffffff;
+}
+.re-persion-massage .re-detailed .re-detailed-header {
+  text-align: center;
+  line-height: 0.92rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-persion-massage .re-detailed .re-detailed-header span {
+  color: #f46d23;
+  font-size: 0.24rem;
+}
+.re-persion-massage .re-detailed .re-detailed-header img {
+  width: 0.2rem;
+  height: 0.18rem;
+  margin-left: 0.17rem;
+}
+.re-persion-massage .re-detailed .re-detailed-main {
+  width: 100%;
+  color: #000000;
+}
+.re-persion-massage .re-detailed .re-detailed-main li {
+  width: 100%;
+  text-align: center;
+  height: 0.94rem;
+  line-height: 0.94rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-persion-massage .re-detailed .re-detailed-main li span {
+  display: block;
+  width: 33.3%;
+  float: left;
+}
+.re-persion-massage .re-detailed .re-detailed-main li:nth-child(1) {
+  background: #fef5ef;
+  color: #f46d23;
+  height: 0.69rem;
+  line-height: 0.69rem;
+}
+.re-persion-massage .re-detailed-footer {
+  width: 100%;
+  background: #ffffff;
+  padding: 0.94rem 0;
+}
+.re-persion-massage .re-detailed-footer .re-submit-btn {
+  position: relative;
+  display: block;
+  width: 91%;
+  height: 0.89rem;
+  font-size: 0.3rem;
+  text-align: center;
+  line-height: 0.89rem;
+  margin: 0 auto;
+  background: #f46d23;
+  border-radius: 0.1rem;
+}
+.re-contract-details {
+  width: 100%;
+  background: #f6f6f6;
+}
+.re-contract-details .re-contract-header {
+  height: 0.82rem;
+  width: 100%;
+  color: #000000;
+  line-height: 0.82rem;
+  background: #ffffff;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-contract-details .re-contract-header i {
+  color: #f46d23;
+  margin-left: 0.24rem;
+}
+.re-contract-details .re-contract-header span {
+  font-size: 0.31rem;
+  margin-left: 0.18rem;
+}
+.re-contract-details .re-contract-header img {
+  width: 0.14rem;
+  margin-left: 3.3rem;
+}
+.re-contract-details .re-contract-main {
+  background: #ffffff;
+  padding: 0.08rem 0;
+  margin-bottom: 0.21rem;
+}
+.re-contract-details .re-contract-main li {
+  color: #a0a0a0;
+  font-size: 0.27rem;
+  padding: 0 0.26rem;
+  line-height: 0.56rem;
+}
+.re-contract-details .re-contract-main span {
+  float: left;
+}
+.re-contract-details .re-contract-main span:nth-child(1) {
+  width: 0.54rem;
+  margin-right: 0.32rem;
+}
+.re-contract-details .re-contract-main span:nth-child(2) {
+  color: #000000;
+}
+.re-contract-details .re-contract-main p {
+  color: #000000;
+  float: left;
+  padding: 0 0.86rem;
+}
+.re-contract-details .re-detailed {
+  width: 100%;
+  background: #ffffff;
+}
+.re-contract-details .re-detailed .re-detailed-header {
+  text-align: center;
+  line-height: 0.92rem;
+  margin-bottom: 0.21rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-contract-details .re-detailed .re-detailed-header span {
+  color: #f46d23;
+  font-size: 0.24rem;
+}
+.re-contract-details .re-detailed .re-detailed-header img {
+  width: 0.2rem;
+  height: 0.18rem;
+  margin-left: 0.1rem;
+}
+.re-contract-details .re-detailed .re-detailed-main {
+  width: 100%;
+  color: #000000;
+}
+.re-contract-details .re-detailed .re-detailed-main li {
+  width: 100%;
+  text-align: center;
+  height: 0.94rem;
+  line-height: 0.94rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-contract-details .re-detailed .re-detailed-main li span {
+  display: block;
+  width: 25%;
+  float: left;
+}
+.re-contract-details .re-detailed .re-detailed-main li:nth-child(1) {
+  background: #fef5ef;
+  color: #f46d23;
+  height: 0.69rem;
+  line-height: 0.69rem;
+}
+.re-contract-details .re-detailed .re-detailed-main li:not(:first-child) span:nth-child(4) {
+  color: #a0a0a0;
+}
+.re-contract-massage {
+  background: #f6f6f6;
+}
+.re-contract-massage .re-contract-main {
+  width: 100%;
+  background: #ffffff;
+  padding: 0.18rem 0;
+  margin-bottom: 0.22rem;
+}
+.re-contract-massage .re-contract-main div {
+  padding: 0 0.25rem;
+  height: 0.61rem;
+  line-height: 0.61rem;
+}
+.re-contract-massage .re-contract-main div p {
+  color: #000000;
+  float: left;
+  font-size: 0.26rem;
+}
+.re-contract-massage .re-contract-main div img {
+  width: 0.14rem;
+  height: 0.24rem;
+}
+.re-contract-massage .re-contract-main div p:nth-child(1) {
+  color: #a0a0a0;
+  margin-right: 0.35rem;
+}
+.re-contract-massage .re-contract-main div p:nth-child(3) {
+  color: #a0a0a0;
+  float: right;
+}
+.re-massage {
+  width: 100%;
+  color: #a0a0a0;
+  background: #f6f6f6;
+  padding-top: 0.16rem;
+}
+.re-massage div {
+  padding: 0.15rem 0;
+  border-bottom: solid 0.01rem #f6f6f6;
+  border-top: solid 0.01rem #f6f6f6;
+  background: #ffffff;
+}
+.re-massage div p {
+  font-size: 0.24rem;
+  padding: 0 0.26rem;
+  height: 0.55rem;
+  line-height: 0.55rem;
+}
+.re-massage div p span {
+  float: left;
+}
+.re-massage div p span:nth-child(2) {
+  float: right;
+  font-size: 0.27rem;
+}
+.re-massage div p img {
+  float: right;
+  width: 0.14rem;
+  height: 0.25rem;
+  margin-top: 0.36rem;
+}
+.re-massage div p:nth-child(1) span:nth-child(1) {
+  color: #000000;
+  font-size: 0.29rem;
+}
+.re-massage .re-details-massage {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  padding: 0 0.26rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+  background: #ffffff;
+  margin-bottom: 0.16rem;
+}
+.re-massage .re-details-massage span {
+  font-size: 0.27rem;
+}
+.re-massage .re-details-massage img {
+  float: right;
+  width: 0.14rem;
+  height: 0.25rem;
+  margin-top: 0.36rem;
+}
+.re-card-administration {
+  width: 100%;
+}
+.re-card-administration .re-icbc {
+  width: 5.88rem;
+  background: url(../../../images/re-icbcbg.png) no-repeat;
+  background-size: 100%;
+  margin: 0.25rem auto;
+}
+.re-card-administration .re-icbc img {
+  width: 0.72rem;
+  margin-top: 0.23rem;
+  margin-left: 0.26rem;
+  float: left;
+}
+.re-card-administration .re-icbc .re-card-type {
+  float: left;
+  margin-left: 0.15rem;
+  margin-top: 0.28rem;
+}
+.re-card-administration .re-icbc .re-card-type p:nth-child(1) {
+  font-size: 0.29rem;
+}
+.re-card-administration .re-icbc .re-card-type p:nth-child(2) {
+  font-size: 0.22rem;
+  margin-top: 0.11rem;
+}
+.re-card-administration .re-icbc .re-card-num {
+  margin-left: 1.14rem;
+  line-height: 0.87rem;
+  font-size: 0.41rem;
+}
+.re-card-administration .re-boc {
+  background: url(../../../images/re-bocbg.png) no-repeat;
+  background-size: 100%;
+  width: 5.88rem;
+  margin: 0.25rem auto;
+}
+.re-card-administration .re-boc img {
+  width: 0.72rem;
+  margin-top: 0.23rem;
+  margin-left: 0.26rem;
+  float: left;
+}
+.re-card-administration .re-boc .re-card-type {
+  float: left;
+  margin-left: 0.15rem;
+  margin-top: 0.28rem;
+}
+.re-card-administration .re-boc .re-card-type p:nth-child(1) {
+  font-size: 0.29rem;
+}
+.re-card-administration .re-boc .re-card-type p:nth-child(2) {
+  font-size: 0.22rem;
+  margin-top: 0.11rem;
+}
+.re-card-administration .re-boc .re-card-num {
+  margin-left: 1.14rem;
+  line-height: 0.87rem;
+  font-size: 0.41rem;
+}
+.re-card-administration .re-abc {
+  background: url(../../../images/re-abcbg.png) no-repeat;
+  background-size: 100%;
+  width: 5.88rem;
+  margin: 0.25rem auto;
+}
+.re-card-administration .re-abc img {
+  width: 0.72rem;
+  margin-top: 0.23rem;
+  margin-left: 0.26rem;
+  float: left;
+}
+.re-card-administration .re-abc .re-card-type {
+  float: left;
+  margin-left: 0.15rem;
+  margin-top: 0.28rem;
+}
+.re-card-administration .re-abc .re-card-type p:nth-child(1) {
+  font-size: 0.29rem;
+}
+.re-card-administration .re-abc .re-card-type p:nth-child(2) {
+  font-size: 0.22rem;
+  margin-top: 0.11rem;
+}
+.re-card-administration .re-abc .re-card-num {
+  margin-left: 1.14rem;
+  line-height: 0.87rem;
+  font-size: 0.41rem;
+}
+.re-details-announcement {
+  width: 100%;
+}
+.re-details-announcement p {
+  padding: 0 0.26rem;
+}
+.re-details-announcement p:nth-child(1) {
+  height: 0.55rem;
+  line-height: 0.55rem;
+  padding: 0.07rem 0.26rem;
+}
+.re-details-announcement p:nth-child(1) span:nth-child(1) {
+  color: #000000;
+  font-size: 0.29rem;
+  float: left;
+}
+.re-details-announcement p:nth-child(1) span:nth-child(2) {
+  color: #a0a0a0;
+  font-size: 0.27rem;
+  float: right;
+}
+.re-details-announcement p:nth-child(2) {
+  color: #a0a0a0;
+  font-size: 0.25rem;
+  line-height: 0.44rem;
+}
+.re-massage-notification {
+  position: reletive;
+  width: 100%;
+  color: #000000;
+  font-size: 0.27rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-massage-notification li {
+  width: 50%;
+  text-align: center;
+  float: left;
+  line-height: 0.83rem;
+}
+.re-massage-notification img {
+  width: 50%;
+  position: absolute;
+  top: 0.79rem;
+}
+.re-system-massage {
+  width: 100%;
+  color: #a0a0a0;
+  background: #f6f6f6;
+  padding-top: 0.16rem;
+}
+.re-system-massage div {
+  padding: 0.15rem 0;
+  border-bottom: solid 0.01rem #f6f6f6;
+  border-top: solid 0.01rem #f6f6f6;
+  background: #ffffff;
+  margin-bottom: 0.16rem;
+}
+.re-system-massage div p {
+  font-size: 0.24rem;
+  padding: 0 0.26rem;
+  height: 0.55rem;
+  line-height: 0.55rem;
+}
+.re-system-massage div p span {
+  float: left;
+}
+.re-system-massage div p span:nth-child(1) {
+  color: #000000;
+  font-size: 0.29rem;
+}
+.re-system-massage div p span:nth-child(2) {
+  float: right;
+  font-size: 0.27rem;
+}
+.re-system-massage div p img {
+  float: right;
+  width: 0.14rem;
+  height: 0.25rem;
+  margin-top: 0.36rem;
+}
+.re-unbundling-card {
+  width: 100%;
+}
+.re-unbundling-card .re-card-massage {
+  width: 5.88rem;
+  background: url(../../../images/re-icbcbg.png) no-repeat;
+  background-size: 100%;
+  margin: 0.25rem auto;
+}
+.re-unbundling-card .re-card-massage img {
+  width: 0.72rem;
+  margin-top: 0.23rem;
+  margin-left: 0.26rem;
+  float: left;
+}
+.re-unbundling-card .re-card-massage .re-card-type {
+  float: left;
+  margin-left: 0.15rem;
+  margin-top: 0.28rem;
+}
+.re-unbundling-card .re-card-massage .re-card-type p:nth-child(1) {
+  font-size: 0.29rem;
+}
+.re-unbundling-card .re-card-massage .re-card-type p:nth-child(2) {
+  font-size: 0.22rem;
+  margin-top: 0.11rem;
+}
+.re-unbundling-card .re-card-massage .re-card-num {
+  margin-left: 1.14rem;
+  line-height: 0.87rem;
+  font-size: 0.41rem;
+}
+.re-unbundling-card .re-pay-quota {
+  width: 5.88rem;
+  margin: 0 auto;
+  border-radius: 0.1rem;
+  box-shadow: 0.05rem 0.15rem 0.1rem #f6f6f6;
+  overflow: hidden;
+  margin-bottom: 0.94rem;
+  background: #f8f8f8;
+}
+.re-unbundling-card .re-pay-quota .re-pay-header {
+  width: 5.34rem;
+  line-height: 0.77rem;
+  background: #e1e1e1;
+  font-size: 0.31rem;
+  color: #000000;
+  padding: 0 0.27rem;
+}
+.re-unbundling-card .re-pay-quota .re-quota {
+  padding: 0.11rem 0;
+}
+.re-unbundling-card .re-pay-quota .re-quota p {
+  line-height: 0.6rem;
+  color: #a0a0a0;
+  padding: 0 0.27rem;
+  font-size: 0.27rem;
+}
+.re-unbundling-card .re-pay-quota .re-quota p span:nth-child(1) {
+  float: left;
+}
+.re-unbundling-card .re-pay-quota .re-quota p span:nth-child(2) {
+  float: right;
+  color: #000000;
+}
+.re-unbundling-success {
+  width: 100%;
+}
+.re-unbundling-success p {
+  width: 5.2rem;
+  margin: 0 auto;
+  color: #000000;
+  font-size: 0.27rem;
+  padding: 0 0.43rem;
+  text-align: center;
+  line-height: 0.42rem;
+  margin-top: 0.95rem;
+}
+.re-unbundling-success .re-enter-code {
+  width: 5.2rem;
+  background: #000000;
+}
