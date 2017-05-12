@@ -83,8 +83,8 @@ h6 {
 }
 @font-face {
   font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?69135u');
-  src: url('fonts/icomoon.eot?69135u#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?69135u') format('truetype'), url('fonts/icomoon.woff?69135u') format('woff'), url('fonts/icomoon.svg?69135u#icomoon') format('svg');
+  src: url('fonts/icomoon.eot?uj738e');
+  src: url('fonts/icomoon.eot?uj738e#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?uj738e') format('truetype'), url('fonts/icomoon.woff?uj738e') format('woff'), url('fonts/icomoon.svg?uj738e#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -101,6 +101,42 @@ h6 {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.icon-android:before {
+  content: "\e996";
+}
+.icon-ios:before {
+  content: "\e997";
+}
+.icon-coupons:before {
+  content: "\e988";
+}
+.icon-financialBills:before {
+  content: "\e989";
+}
+.icon-helpCenter:before {
+  content: "\e98a";
+}
+.icon-inviteFriends:before {
+  content: "\e98b";
+}
+.icon-love:before {
+  content: "\e98c";
+}
+.icon-message:before {
+  content: "\e991";
+}
+.icon-pocketMoney:before {
+  content: "\e992";
+}
+.icon-profile:before {
+  content: "\e993";
+}
+.icon-setUp:before {
+  content: "\e994";
+}
+.icon-withdrawal:before {
+  content: "\e995";
 }
 .icon-rs-alreadycollection2 .path1:before {
   content: "\e952";
@@ -658,6 +694,518 @@ html {
   font-size: 0.2rem;
   color: #a0a0a0;
 }
+.re-enter-code {
+  width: 5.76rem;
+  text-align: center;
+  margin: 0.73rem auto;
+}
+.re-enter-code input {
+  width: 0.8rem;
+  height: 0.5rem;
+  border-bottom: solid 0.02rem #dcdcdc;
+  text-align: center;
+  font-size: 0.3rem;
+  margin: 0 0.05rem;
+  margin-bottom: 0.91rem;
+}
+.re-route {
+  position: reletive;
+  width: 100%;
+  color: #000000;
+  font-size: 0.27rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-route li {
+  width: 50%;
+  text-align: center;
+  float: left;
+  line-height: 0.83rem;
+}
+.re-route img {
+  width: 50%;
+  position: absolute;
+  top: 0.79rem;
+}
+.re-massage {
+  width: 100%;
+  color: #a0a0a0;
+  background: #f6f6f6;
+  padding-top: 0.16rem;
+}
+.re-massage div {
+  padding: 0.15rem 0;
+  border-bottom: solid 0.01rem #f6f6f6;
+  border-top: solid 0.01rem #f6f6f6;
+  background: #ffffff;
+}
+.re-massage div p {
+  font-size: 0.24rem;
+  padding: 0 0.26rem;
+  height: 0.55rem;
+  line-height: 0.55rem;
+}
+.re-massage div p span {
+  float: left;
+}
+.re-massage div p span:nth-child(2) {
+  float: right;
+  font-size: 0.27rem;
+}
+.re-massage div p img {
+  float: right;
+  width: 0.14rem;
+  height: 0.25rem;
+  margin-top: 0.36rem;
+}
+.re-massage div p:nth-child(1) span:nth-child(1) {
+  color: #000000;
+  font-size: 0.29rem;
+}
+.re-massage .re-details-massage {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  padding: 0 0.26rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+  background: #ffffff;
+  margin-bottom: 0.16rem;
+}
+.re-massage .re-details-massage span {
+  font-size: 0.27rem;
+}
+.re-massage .re-details-massage img {
+  float: right;
+  width: 0.14rem;
+  height: 0.25rem;
+  margin-top: 0.36rem;
+}
+body.bodyGrey {
+  background: #f6f6f6;
+}
+body.bodyGrey .article {
+  width: 100%;
+}
+body.bodyGrey .article li {
+  height: 1.47rem;
+  margin-bottom: 0.21rem;
+  background: #ffffff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.36rem 0.24rem 0.3rem;
+}
+body.bodyGrey .article li dl.article_title {
+  width: 2.85rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+body.bodyGrey .article li dt {
+  color: #000000;
+}
+body.bodyGrey .article li dd {
+  color: #a0a0a0;
+}
+body.bodyGrey .article li img {
+  width: 2.27rem;
+  height: 1.48rem;
+}
+.basicInfo_top {
+  width: 80%;
+  margin: 0.62rem auto 0.22rem;
+}
+.basicInfo_top h3.basicInfo_bg {
+  width: 94%;
+  margin: 0 auto;
+  height: 0.6rem;
+  background: url(/build/images/basicInfo/bgPage1.png) no-repeat center center;
+  background-size: 100%;
+}
+.basicInfo_top .basicInfo_title {
+  line-height: 0.64rem;
+  font-size: 0.24rem;
+  color: #c9c9c9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.basicInfo_top .basicInfo_title li.colorTiger {
+  color: #f46d23;
+}
+.re-login-footer p.basicInfo_notice {
+  color: #e60012;
+}
+.basicInfo_btn {
+  margin-top: 1.1rem;
+}
+.basicInfo_btn p {
+  text-align: left;
+  height: 0.36rem;
+  line-height: 0.4rem;
+}
+.basicInfo_btn p input {
+  width: 0.21rem;
+  height: 0.21rem;
+  border: 1px solid #b7b7b7;
+  margin-right: 0.13rem;
+}
+.basicInfo_btn p input.select:after {
+  position: relative;
+  left: 0.04rem;
+  display: block;
+  content: '';
+  width: 0.06rem;
+  height: 0.11rem;
+  border: 2px solid #5ac25f;
+  border-top: none;
+  border-left: none;
+  transform: rotate(30deg);
+}
+.basicInfo_select {
+  overflow: visible!important;
+}
+.basicInfo_select .basicInfo_selectval {
+  display: inline-block;
+  width: 60%;
+  float: right;
+  margin-left: 0.2rem;
+  color: #000000;
+  background: url(/build/images/basicInfo/arrowdown.png) no-repeat right center;
+  background-size: 0.24rem;
+}
+.basicInfo_page2 {
+  position: relative;
+}
+.basicInfo_page2 .basicInfo_selectlist {
+  position: absolute;
+  background: #ffffff;
+  z-index: 1;
+  width: 100%;
+  color: #000000;
+  border: 1px solid #dcdcdc;
+}
+.basicInfo_page2 .basicInfo_selectlist li {
+  height: 0.53rem;
+  line-height: 0.53rem;
+  font-size: 0.26rem;
+  padding: 0 5%;
+}
+.basicInfo_page2 .basicInfo_selectlist li.active {
+  background: #5ac25f;
+  color: #ffffff;
+}
+.re-card-administration {
+  width: 100%;
+}
+.re-card-administration .re-icbc {
+  width: 5.88rem;
+  background: url(../../../build/images/re-icbcbg.png) no-repeat;
+  background-size: 100%;
+  margin: 0.25rem auto;
+}
+.re-card-administration .re-icbc img {
+  width: 0.72rem;
+  margin-top: 0.23rem;
+  margin-left: 0.26rem;
+  float: left;
+}
+.re-card-administration .re-icbc .re-card-type {
+  float: left;
+  margin-left: 0.15rem;
+  margin-top: 0.28rem;
+}
+.re-card-administration .re-icbc .re-card-type p:nth-child(1) {
+  font-size: 0.29rem;
+}
+.re-card-administration .re-icbc .re-card-type p:nth-child(2) {
+  font-size: 0.22rem;
+  margin-top: 0.11rem;
+}
+.re-card-administration .re-icbc .re-card-num {
+  margin-left: 1.14rem;
+  line-height: 0.87rem;
+  font-size: 0.41rem;
+}
+.re-card-administration .re-boc {
+  background: url(../../../build/images/re-bocbg.png) no-repeat;
+  background-size: 100%;
+  width: 5.88rem;
+  margin: 0.25rem auto;
+}
+.re-card-administration .re-boc img {
+  width: 0.72rem;
+  margin-top: 0.23rem;
+  margin-left: 0.26rem;
+  float: left;
+}
+.re-card-administration .re-boc .re-card-type {
+  float: left;
+  margin-left: 0.15rem;
+  margin-top: 0.28rem;
+}
+.re-card-administration .re-boc .re-card-type p:nth-child(1) {
+  font-size: 0.29rem;
+}
+.re-card-administration .re-boc .re-card-type p:nth-child(2) {
+  font-size: 0.22rem;
+  margin-top: 0.11rem;
+}
+.re-card-administration .re-boc .re-card-num {
+  margin-left: 1.14rem;
+  line-height: 0.87rem;
+  font-size: 0.41rem;
+}
+.re-card-administration .re-abc {
+  background: url(../../../build/images/re-abcbg.png) no-repeat;
+  background-size: 100%;
+  width: 5.88rem;
+  margin: 0.25rem auto;
+}
+.re-card-administration .re-abc img {
+  width: 0.72rem;
+  margin-top: 0.23rem;
+  margin-left: 0.26rem;
+  float: left;
+}
+.re-card-administration .re-abc .re-card-type {
+  float: left;
+  margin-left: 0.15rem;
+  margin-top: 0.28rem;
+}
+.re-card-administration .re-abc .re-card-type p:nth-child(1) {
+  font-size: 0.29rem;
+}
+.re-card-administration .re-abc .re-card-type p:nth-child(2) {
+  font-size: 0.22rem;
+  margin-top: 0.11rem;
+}
+.re-card-administration .re-abc .re-card-num {
+  margin-left: 1.14rem;
+  line-height: 0.87rem;
+  font-size: 0.41rem;
+}
+.re-contract-details {
+  width: 100%;
+  background: #f6f6f6;
+}
+.re-contract-details .re-contract-header {
+  height: 0.82rem;
+  width: 100%;
+  color: #000000;
+  line-height: 0.82rem;
+  background: #ffffff;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-contract-details .re-contract-header i {
+  color: #f46d23;
+  margin-left: 0.24rem;
+}
+.re-contract-details .re-contract-header span {
+  font-size: 0.31rem;
+  margin-left: 0.18rem;
+}
+.re-contract-details .re-contract-header img {
+  width: 0.14rem;
+  margin-left: 3.3rem;
+}
+.re-contract-details .re-contract-main {
+  background: #ffffff;
+  padding: 0.08rem 0;
+  margin-bottom: 0.21rem;
+}
+.re-contract-details .re-contract-main li {
+  color: #a0a0a0;
+  font-size: 0.27rem;
+  padding: 0 0.26rem;
+  line-height: 0.56rem;
+}
+.re-contract-details .re-contract-main span {
+  float: left;
+}
+.re-contract-details .re-contract-main span:nth-child(1) {
+  width: 0.54rem;
+  margin-right: 0.32rem;
+}
+.re-contract-details .re-contract-main span:nth-child(2) {
+  color: #000000;
+}
+.re-contract-details .re-contract-main p {
+  color: #000000;
+  float: left;
+  padding: 0 0.86rem;
+}
+.re-contract-details .re-detailed {
+  width: 100%;
+  background: #ffffff;
+}
+.re-contract-details .re-detailed .re-detailed-header {
+  text-align: center;
+  line-height: 0.92rem;
+  margin-bottom: 0.21rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-contract-details .re-detailed .re-detailed-header span {
+  color: #f46d23;
+  font-size: 0.24rem;
+}
+.re-contract-details .re-detailed .re-detailed-header img {
+  width: 0.2rem;
+  height: 0.18rem;
+  margin-left: 0.1rem;
+}
+.re-contract-details .re-detailed .re-detailed-main {
+  width: 100%;
+  color: #000000;
+}
+.re-contract-details .re-detailed .re-detailed-main li {
+  width: 100%;
+  text-align: center;
+  height: 0.94rem;
+  line-height: 0.94rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-contract-details .re-detailed .re-detailed-main li span {
+  display: block;
+  width: 25%;
+  float: left;
+}
+.re-contract-details .re-detailed .re-detailed-main li:nth-child(1) {
+  background: #fef5ef;
+  color: #f46d23;
+  height: 0.69rem;
+  line-height: 0.69rem;
+}
+.re-contract-details .re-detailed .re-detailed-main li:not(:first-child) span:nth-child(4) {
+  color: #a0a0a0;
+}
+.re-contract-massage {
+  background: #f6f6f6;
+}
+.re-contract-massage .re-contract-main {
+  width: 100%;
+  background: #ffffff;
+  padding: 0.18rem 0;
+  margin-bottom: 0.22rem;
+}
+.re-contract-massage .re-contract-main div {
+  padding: 0 0.25rem;
+  height: 0.61rem;
+  line-height: 0.61rem;
+}
+.re-contract-massage .re-contract-main div p {
+  color: #000000;
+  float: left;
+  font-size: 0.26rem;
+}
+.re-contract-massage .re-contract-main div img {
+  width: 0.14rem;
+  height: 0.24rem;
+}
+.re-contract-massage .re-contract-main div p:nth-child(1) {
+  color: #a0a0a0;
+  margin-right: 0.35rem;
+}
+.re-contract-massage .re-contract-main div p:nth-child(3) {
+  color: #a0a0a0;
+  float: right;
+}
+.re-details-announcement {
+  width: 100%;
+}
+.re-details-announcement p {
+  padding: 0 0.26rem;
+}
+.re-details-announcement p:nth-child(1) {
+  height: 0.55rem;
+  line-height: 0.55rem;
+  padding: 0.07rem 0.26rem;
+}
+.re-details-announcement p:nth-child(1) span:nth-child(1) {
+  color: #000000;
+  font-size: 0.29rem;
+  float: left;
+}
+.re-details-announcement p:nth-child(1) span:nth-child(2) {
+  color: #a0a0a0;
+  font-size: 0.27rem;
+  float: right;
+}
+.re-details-announcement p:nth-child(2) {
+  color: #a0a0a0;
+  font-size: 0.25rem;
+  line-height: 0.44rem;
+}
+.re-helpcenter {
+  width: 90%;
+  margin: 0 auto;
+}
+.re-helpcenter li {
+  width: 100%;
+  margin: 0.25rem 0;
+}
+.re-helpcenter li h3 {
+  font-size: 0.26rem;
+  color: #000000;
+  line-height: 0.5rem;
+}
+.re-helpcenter li p {
+  font-size: 0.24rem;
+  color: #898989;
+  text-indent: 2em;
+  line-height: 0.44rem;
+}
+.re-immediate-payment {
+  width: 100%;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-immediate-payment li {
+  width: 5.95rem;
+  margin: 0 auto;
+  line-height: 0.97rem;
+  font-size: 0.27rem;
+}
+.re-immediate-payment li span:nth-child(1) {
+  float: left;
+  color: #a0a0a0;
+  font-size: 0.27rem;
+}
+.re-immediate-payment li span:nth-child(2) {
+  float: right;
+  color: #000000;
+}
+.re-immediate-payment li:nth-child(1) {
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-send-code {
+  width: 5.95rem;
+  margin: 0 auto;
+  margin-top: 0.87rem;
+  margin-bottom: 0.1rem;
+}
+.re-send-code p:nth-child(1) {
+  float: left;
+  width: 4.5rem;
+  font-size: 0.27rem;
+  color: #000000;
+  line-height: 0.47rem;
+}
+.re-send-code p:nth-child(2) {
+  float: right;
+  width: 0.74rem;
+  height: 0.4rem;
+  font-size: 0.25rem;
+  text-align: center;
+  line-height: 0.4rem;
+  background: #c9c9c9;
+  border-radius: 0.05rem;
+}
+.re-pay-code .re-enter-code {
+  margin: 0.3rem auto;
+}
 .re-index {
   width: 100%;
   height: 100%;
@@ -911,6 +1459,354 @@ html {
   color: #f46d23;
   float: right;
 }
+.re-paybg {
+  background: #f6f6f6;
+}
+.re-paybg .re-pay-message {
+  width: 100%;
+  color: #000000;
+  border-bottom: solid 0.01rem #f6f6f6;
+  margin-bottom: 0.21rem;
+}
+.re-paybg .re-pay-message li {
+  font-size: 0.27rem;
+  width: 91.5%;
+  padding: 0 0.27rem;
+  line-height: 0.95rem;
+  background: #ffffff;
+}
+.re-paybg .re-pay-message li span:nth-child(1) {
+  color: #a0a0a0;
+  float: left;
+}
+.re-paybg .re-pay-message li span:nth-child(2) {
+  float: right;
+}
+.re-paybg .re-pay-message li:nth-child(1) {
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-paybg .re-card-message {
+  background: #ffffff;
+  width: 91.5%;
+  padding: 0.2rem 0.27rem;
+  line-height: 0.3rem;
+  border-top: solid 0.01rem #f6f6f6;
+  border-bottom: solid 0.01rem #f6f6f6;
+  margin-bottom: 0.21rem;
+}
+.re-paybg .re-card-message img {
+  width: 0.59rem;
+  float: left;
+  margin-top: 0.05rem;
+}
+.re-paybg .re-card-message .re-card-main {
+  width: 3.64rem;
+  float: left;
+  margin: 0.1rem 0.2rem;
+  color: #000000;
+}
+.re-paybg .re-card-message .re-card-main p:nth-child(2) {
+  color: #a0a0a0;
+}
+.re-paybg .re-pay-person {
+  background: #ffffff;
+  font-size: 0.27rem;
+  border-top: solid 0.01rem #f6f6f6;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-paybg .re-pay-person li {
+  width: 5.95rem;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  margin: 0 auto;
+  position: relative;
+  border-top: solid 0.01rem #f6f6f6;
+}
+.re-paybg .re-pay-person li span:nth-child(1) {
+  float: left;
+  width: 0.9rem;
+  color: #a0a0a0;
+}
+.re-paybg .re-pay-person li input {
+  margin-left: 0.45rem;
+}
+.re-paybg .re-pay-person li a {
+  font-size: 0.22rem;
+  display: block;
+  width: 1.53rem;
+  height: 0.51rem;
+  background: url(../../../build/images/re-pay-codebg.png) no-repeat;
+  position: absolute;
+  top: 0.22rem;
+  right: 0;
+  line-height: 0.51rem;
+  text-align: center;
+  background-size: 100% 100%;
+}
+.re-paybg .re-login-footer {
+  background: #ffffff;
+  margin: 0;
+  padding-top: 0.6rem;
+}
+.re-paybg .re-agreement {
+  background: #ffffff;
+  color: #a0a0a0;
+  padding: 0 0.3rem;
+  line-height: 0.62rem;
+}
+.re-paybg .re-agreement input {
+  width: 0.23rem;
+  height: 0.23rem;
+  float: left;
+  margin-top: 0.21rem;
+  margin-right: 0.24rem;
+  background: #a0a0a0;
+}
+.re-repayment-details {
+  width: 100%;
+  background: #f6f6f6;
+}
+.re-repayment-details .re-contract-header {
+  height: 0.82rem;
+  width: 100%;
+  color: #000000;
+  line-height: 0.82rem;
+  background: #ffffff;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-repayment-details .re-contract-header i {
+  color: #f46d23;
+  margin-left: 0.24rem;
+}
+.re-repayment-details .re-contract-header span {
+  font-size: 0.31rem;
+  margin-left: 0.18rem;
+}
+.re-repayment-details .re-contract-header img {
+  width: 0.14rem;
+  margin-left: 3.3rem;
+}
+.re-repayment-details .re-contract-main {
+  background: #ffffff;
+  padding: 0.08rem 0;
+  margin-bottom: 0.21rem;
+}
+.re-repayment-details .re-contract-main li {
+  color: #a0a0a0;
+  font-size: 0.27rem;
+  padding: 0 0.26rem;
+  line-height: 0.56rem;
+}
+.re-repayment-details .re-contract-main span {
+  float: left;
+}
+.re-repayment-details .re-contract-main span:nth-child(1) {
+  width: 0.54rem;
+  margin-right: 0.32rem;
+}
+.re-repayment-details .re-contract-main span:nth-child(2) {
+  color: #000000;
+}
+.re-repayment-details .re-contract-main p {
+  color: #000000;
+  float: left;
+  padding: 0 0.86rem;
+}
+.re-repayment-details .re-detailed {
+  width: 100%;
+  background: #ffffff;
+}
+.re-repayment-details .re-detailed .re-detailed-header {
+  text-align: center;
+  line-height: 0.92rem;
+  margin-bottom: 0.21rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-repayment-details .re-detailed .re-detailed-header span {
+  color: #f46d23;
+  font-size: 0.24rem;
+}
+.re-repayment-details .re-detailed .re-detailed-header img {
+  width: 0.2rem;
+  height: 0.18rem;
+  margin-left: 0.1rem;
+}
+.re-repayment-details .re-detailed .re-detailed-main {
+  width: 100%;
+  color: #000000;
+}
+.re-repayment-details .re-detailed .re-detailed-main li {
+  width: 100%;
+  text-align: center;
+  height: 0.94rem;
+  line-height: 0.94rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+  font-size: 0.25rem;
+}
+.re-repayment-details .re-detailed .re-detailed-main li span {
+  display: block;
+  float: left;
+}
+.re-repayment-details .re-detailed .re-detailed-main li span:nth-child(1) {
+  width: 1.2rem;
+}
+.re-repayment-details .re-detailed .re-detailed-main li span:nth-child(2) {
+  width: 2.4rem;
+}
+.re-repayment-details .re-detailed .re-detailed-main li span:nth-child(3) {
+  width: 1.75rem;
+}
+.re-repayment-details .re-detailed .re-detailed-main li span:nth-child(4) {
+  width: 1.05rem;
+}
+.re-repayment-details .re-detailed .re-detailed-main li:nth-child(1) {
+  background: #fef5ef;
+  color: #f46d23;
+  height: 0.69rem;
+  line-height: 0.69rem;
+}
+.re-repayment-details .re-detailed .re-detailed-main li:not(:first-child) span:nth-child(4) {
+  position: relitive;
+  color: #a0a0a0;
+  height: 100%;
+}
+.re-repayment-details .re-detailed .re-detailed-main li:not(:first-child) span:nth-child(4) label {
+  position: absolute;
+}
+.re-repayment-details .re-detailed .re-detailed-main li:not(:first-child) span:nth-child(4) label img {
+  position: absolute;
+  width: 0.29rem;
+  left: -0.15rem;
+  top: 0.37rem;
+}
+.re-repayment-details .re-detailed .re-detailed-main li:not(:first-child) span:nth-child(4) input {
+  position: absolute;
+  top: 0.37rem;
+}
+.re-optional-repayment {
+  width: 100%;
+  height: 0.97rem;
+  position: fixed;
+  bottom: 0;
+  border-top: solid 0.01rem #f6f6f6;
+}
+.re-optional-repayment div {
+  width: 4.04rem;
+  height: 100%;
+  float: left;
+  color: #000000;
+}
+.re-optional-repayment div div {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin-top: 0.1rem;
+}
+.re-optional-repayment div div img {
+  width: 0.29rem;
+  float: left;
+  margin-top: 0.15rem;
+  margin-left: 0.21rem;
+}
+.re-optional-repayment div div div {
+  width: 2rem;
+  float: left;
+  margin-left: 0.2rem;
+  font-size: 0.28rem;
+}
+.re-optional-repayment div div div span {
+  color: #f46d23;
+}
+.re-optional-repayment div p {
+  margin-left: 0.7rem;
+  font-size: 0.19rem;
+  color: #a0a0a0;
+  line-height: 0.4rem;
+}
+.re-optional-repayment a {
+  width: 2.36rem;
+  height: 100%;
+  float: right;
+  background: #f46d23;
+  font-size: 0.29rem;
+  text-align: center;
+  line-height: 0.97rem;
+}
+.re-payment-method {
+  color: #000000;
+  width: 100%;
+  height: 5.56rem;
+  background: #ffffff;
+  z-index: 200;
+  position: fixed;
+}
+.re-payment-method li {
+  border-bottom: solid 0.01rem #f6f6f6;
+  line-height: 0.8rem;
+  position: relitive;
+  font-size: 0.26rem;
+}
+.re-payment-method li span {
+  margin-left: 0.96rem;
+}
+.re-payment-method li label {
+  display: block;
+  width: 0.28rem;
+  float: right;
+  position: absolute;
+  right: 0.24rem;
+}
+.re-payment-method li label img {
+  width: 100%;
+  position: absolute;
+}
+.re-payment-method li:nth-child(1) {
+  text-align: center;
+  font-size: 0.3rem;
+}
+.re-payment-method li:nth-child(1) img {
+  width: 0.24rem;
+  position: absolute;
+  left: 0.23rem;
+  top: 0.29rem;
+}
+.re-payment-method li:nth-child(2) {
+  position: relitive;
+}
+.re-payment-method li:nth-child(2) .re-cardbg {
+  width: 0.48rem;
+  position: absolute;
+  left: 0.23rem;
+  top: 1rem;
+}
+.re-payment-method li:nth-child(2) span {
+  margin-left: 0.96rem;
+  float: left;
+}
+.re-payment-method li:nth-child(2) label {
+  top: 1.1rem;
+}
+.re-payment-method li:nth-child(3) {
+  margin-bottom: 0.82rem;
+}
+.re-payment-method li:nth-child(3) .re-alipaybg {
+  width: 0.48rem;
+  position: absolute;
+  left: 0.23rem;
+  top: 1.75rem;
+}
+.re-payment-method li:nth-child(3) span:nth-child(2) {
+  margin-left: 0.96rem;
+  float: left;
+}
+.re-payment-method li:nth-child(3) span:nth-child(3) {
+  margin-left: 0rem;
+  font-size: 0.2rem;
+  color: #a0a0a0;
+  float: left;
+}
+.re-payment-method li:nth-child(3) label {
+  top: 1.9rem;
+}
 .re-personal-data {
   background: #f6f6f6;
 }
@@ -948,6 +1844,148 @@ html {
 }
 .re-personal-data .re-personmian:nth-child(1) {
   margin-bottom: 0.19rem;
+}
+.stagePro_container {
+  background: #f6f6f6;
+}
+.stagePro_container .stagePro_banner img {
+  display: block;
+  width: 100%;
+}
+.stagePro_container .stagePro_content {
+  padding: 0.42rem 5% 0.58rem;
+  background: #ffffff;
+  width: 80%;
+  margin: -0.43rem auto 0;
+  border-radius: 7px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.stagePro_container .stagePro_content .stagePro_title {
+  height: 0.54rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 0.54rem;
+  font-size: 0.28rem;
+  background: url(/build/images/stageProcess/title.png) no-repeat center center;
+  background-size: 100%;
+}
+.stagePro_container .stagePro_content p.stagePro_center {
+  color: #000000;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  margin-bottom: 0.5rem;
+}
+.stagePro_container .stagePro_content p.marginTop {
+  margin-top: 0.35rem;
+}
+.stagePro_container .stagePro_content p.marginBottom {
+  margin-bottom: 0.56rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main {
+  padding-top: 0.4rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 0.74rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li p.stagePro_mainl1 {
+  width: 3.3rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li p.stagePro_mainr1 {
+  width: 2.65rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li p.stagePro_mainl2 {
+  width: 2.8rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li p.stagePro_mainr2 {
+  width: 2.65rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li p.stagePro_mainl3 {
+  width: 2.9rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li p span {
+  display: block;
+  color: #fd7c04;
+  font-size: 0.28rem;
+  line-height: 0.6rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li p span em {
+  font-size: 0.38rem;
+  margin-right: 0.13rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li p i {
+  display: block;
+  color: #a0a0a0;
+  margin-left: 0.5rem;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li .stageImg1 {
+  width: 0.96rem;
+  height: 1.73rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li .stageImg2 {
+  width: 1.8rem;
+  height: 1.79rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li .stageImg3 {
+  width: 1.86rem;
+  height: 1.91rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li .stageImg4 {
+  width: 2.27rem;
+  height: 2.14rem;
+  margin-left: -0.32rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li .stageImg5 {
+  width: 1.84rem;
+  height: 1.63rem;
+}
+.stagePro_container .stagePro_content ul.stagePro_main li:nth-child(5) {
+  margin-bottom: 0;
+}
+.re-system-massage {
+  width: 100%;
+  color: #a0a0a0;
+  background: #f6f6f6;
+  padding-top: 0.16rem;
+}
+.re-system-massage div {
+  padding: 0.15rem 0;
+  border-bottom: solid 0.01rem #f6f6f6;
+  border-top: solid 0.01rem #f6f6f6;
+  background: #ffffff;
+  margin-bottom: 0.16rem;
+}
+.re-system-massage div p {
+  font-size: 0.24rem;
+  padding: 0 0.26rem;
+  height: 0.55rem;
+  line-height: 0.55rem;
+}
+.re-system-massage div p span {
+  float: left;
+}
+.re-system-massage div p span:nth-child(1) {
+  color: #000000;
+  font-size: 0.29rem;
+}
+.re-system-massage div p span:nth-child(2) {
+  float: right;
+  font-size: 0.27rem;
+}
+.re-system-massage div p img {
+  float: right;
+  width: 0.14rem;
+  height: 0.25rem;
+  margin-top: 0.36rem;
 }
 .re-persion-massage {
   background: #f6f6f6;
@@ -1097,359 +2135,12 @@ html {
   background: #f46d23;
   border-radius: 0.1rem;
 }
-.re-contract-details {
-  width: 100%;
-  background: #f6f6f6;
-}
-.re-contract-details .re-contract-header {
-  height: 0.82rem;
-  width: 100%;
-  color: #000000;
-  line-height: 0.82rem;
-  background: #ffffff;
-  border-bottom: solid 0.01rem #f6f6f6;
-}
-.re-contract-details .re-contract-header i {
-  color: #f46d23;
-  margin-left: 0.24rem;
-}
-.re-contract-details .re-contract-header span {
-  font-size: 0.31rem;
-  margin-left: 0.18rem;
-}
-.re-contract-details .re-contract-header img {
-  width: 0.14rem;
-  margin-left: 3.3rem;
-}
-.re-contract-details .re-contract-main {
-  background: #ffffff;
-  padding: 0.08rem 0;
-  margin-bottom: 0.21rem;
-}
-.re-contract-details .re-contract-main li {
-  color: #a0a0a0;
-  font-size: 0.27rem;
-  padding: 0 0.26rem;
-  line-height: 0.56rem;
-}
-.re-contract-details .re-contract-main span {
-  float: left;
-}
-.re-contract-details .re-contract-main span:nth-child(1) {
-  width: 0.54rem;
-  margin-right: 0.32rem;
-}
-.re-contract-details .re-contract-main span:nth-child(2) {
-  color: #000000;
-}
-.re-contract-details .re-contract-main p {
-  color: #000000;
-  float: left;
-  padding: 0 0.86rem;
-}
-.re-contract-details .re-detailed {
-  width: 100%;
-  background: #ffffff;
-}
-.re-contract-details .re-detailed .re-detailed-header {
-  text-align: center;
-  line-height: 0.92rem;
-  margin-bottom: 0.21rem;
-  border-bottom: solid 0.01rem #f6f6f6;
-}
-.re-contract-details .re-detailed .re-detailed-header span {
-  color: #f46d23;
-  font-size: 0.24rem;
-}
-.re-contract-details .re-detailed .re-detailed-header img {
-  width: 0.2rem;
-  height: 0.18rem;
-  margin-left: 0.1rem;
-}
-.re-contract-details .re-detailed .re-detailed-main {
-  width: 100%;
-  color: #000000;
-}
-.re-contract-details .re-detailed .re-detailed-main li {
-  width: 100%;
-  text-align: center;
-  height: 0.94rem;
-  line-height: 0.94rem;
-  border-bottom: solid 0.01rem #f6f6f6;
-}
-.re-contract-details .re-detailed .re-detailed-main li span {
-  display: block;
-  width: 25%;
-  float: left;
-}
-.re-contract-details .re-detailed .re-detailed-main li:nth-child(1) {
-  background: #fef5ef;
-  color: #f46d23;
-  height: 0.69rem;
-  line-height: 0.69rem;
-}
-.re-contract-details .re-detailed .re-detailed-main li:not(:first-child) span:nth-child(4) {
-  color: #a0a0a0;
-}
-.re-contract-massage {
-  background: #f6f6f6;
-}
-.re-contract-massage .re-contract-main {
-  width: 100%;
-  background: #ffffff;
-  padding: 0.18rem 0;
-  margin-bottom: 0.22rem;
-}
-.re-contract-massage .re-contract-main div {
-  padding: 0 0.25rem;
-  height: 0.61rem;
-  line-height: 0.61rem;
-}
-.re-contract-massage .re-contract-main div p {
-  color: #000000;
-  float: left;
-  font-size: 0.26rem;
-}
-.re-contract-massage .re-contract-main div img {
-  width: 0.14rem;
-  height: 0.24rem;
-}
-.re-contract-massage .re-contract-main div p:nth-child(1) {
-  color: #a0a0a0;
-  margin-right: 0.35rem;
-}
-.re-contract-massage .re-contract-main div p:nth-child(3) {
-  color: #a0a0a0;
-  float: right;
-}
-.re-massage {
-  width: 100%;
-  color: #a0a0a0;
-  background: #f6f6f6;
-  padding-top: 0.16rem;
-}
-.re-massage div {
-  padding: 0.15rem 0;
-  border-bottom: solid 0.01rem #f6f6f6;
-  border-top: solid 0.01rem #f6f6f6;
-  background: #ffffff;
-}
-.re-massage div p {
-  font-size: 0.24rem;
-  padding: 0 0.26rem;
-  height: 0.55rem;
-  line-height: 0.55rem;
-}
-.re-massage div p span {
-  float: left;
-}
-.re-massage div p span:nth-child(2) {
-  float: right;
-  font-size: 0.27rem;
-}
-.re-massage div p img {
-  float: right;
-  width: 0.14rem;
-  height: 0.25rem;
-  margin-top: 0.36rem;
-}
-.re-massage div p:nth-child(1) span:nth-child(1) {
-  color: #000000;
-  font-size: 0.29rem;
-}
-.re-massage .re-details-massage {
-  height: 0.96rem;
-  line-height: 0.96rem;
-  padding: 0 0.26rem;
-  border-bottom: solid 0.01rem #f6f6f6;
-  background: #ffffff;
-  margin-bottom: 0.16rem;
-}
-.re-massage .re-details-massage span {
-  font-size: 0.27rem;
-}
-.re-massage .re-details-massage img {
-  float: right;
-  width: 0.14rem;
-  height: 0.25rem;
-  margin-top: 0.36rem;
-}
-.re-card-administration {
-  width: 100%;
-}
-.re-card-administration .re-icbc {
-  width: 5.88rem;
-  background: url(../../../images/re-icbcbg.png) no-repeat;
-  background-size: 100%;
-  margin: 0.25rem auto;
-}
-.re-card-administration .re-icbc img {
-  width: 0.72rem;
-  margin-top: 0.23rem;
-  margin-left: 0.26rem;
-  float: left;
-}
-.re-card-administration .re-icbc .re-card-type {
-  float: left;
-  margin-left: 0.15rem;
-  margin-top: 0.28rem;
-}
-.re-card-administration .re-icbc .re-card-type p:nth-child(1) {
-  font-size: 0.29rem;
-}
-.re-card-administration .re-icbc .re-card-type p:nth-child(2) {
-  font-size: 0.22rem;
-  margin-top: 0.11rem;
-}
-.re-card-administration .re-icbc .re-card-num {
-  margin-left: 1.14rem;
-  line-height: 0.87rem;
-  font-size: 0.41rem;
-}
-.re-card-administration .re-boc {
-  background: url(../../../images/re-bocbg.png) no-repeat;
-  background-size: 100%;
-  width: 5.88rem;
-  margin: 0.25rem auto;
-}
-.re-card-administration .re-boc img {
-  width: 0.72rem;
-  margin-top: 0.23rem;
-  margin-left: 0.26rem;
-  float: left;
-}
-.re-card-administration .re-boc .re-card-type {
-  float: left;
-  margin-left: 0.15rem;
-  margin-top: 0.28rem;
-}
-.re-card-administration .re-boc .re-card-type p:nth-child(1) {
-  font-size: 0.29rem;
-}
-.re-card-administration .re-boc .re-card-type p:nth-child(2) {
-  font-size: 0.22rem;
-  margin-top: 0.11rem;
-}
-.re-card-administration .re-boc .re-card-num {
-  margin-left: 1.14rem;
-  line-height: 0.87rem;
-  font-size: 0.41rem;
-}
-.re-card-administration .re-abc {
-  background: url(../../../images/re-abcbg.png) no-repeat;
-  background-size: 100%;
-  width: 5.88rem;
-  margin: 0.25rem auto;
-}
-.re-card-administration .re-abc img {
-  width: 0.72rem;
-  margin-top: 0.23rem;
-  margin-left: 0.26rem;
-  float: left;
-}
-.re-card-administration .re-abc .re-card-type {
-  float: left;
-  margin-left: 0.15rem;
-  margin-top: 0.28rem;
-}
-.re-card-administration .re-abc .re-card-type p:nth-child(1) {
-  font-size: 0.29rem;
-}
-.re-card-administration .re-abc .re-card-type p:nth-child(2) {
-  font-size: 0.22rem;
-  margin-top: 0.11rem;
-}
-.re-card-administration .re-abc .re-card-num {
-  margin-left: 1.14rem;
-  line-height: 0.87rem;
-  font-size: 0.41rem;
-}
-.re-details-announcement {
-  width: 100%;
-}
-.re-details-announcement p {
-  padding: 0 0.26rem;
-}
-.re-details-announcement p:nth-child(1) {
-  height: 0.55rem;
-  line-height: 0.55rem;
-  padding: 0.07rem 0.26rem;
-}
-.re-details-announcement p:nth-child(1) span:nth-child(1) {
-  color: #000000;
-  font-size: 0.29rem;
-  float: left;
-}
-.re-details-announcement p:nth-child(1) span:nth-child(2) {
-  color: #a0a0a0;
-  font-size: 0.27rem;
-  float: right;
-}
-.re-details-announcement p:nth-child(2) {
-  color: #a0a0a0;
-  font-size: 0.25rem;
-  line-height: 0.44rem;
-}
-.re-massage-notification {
-  position: reletive;
-  width: 100%;
-  color: #000000;
-  font-size: 0.27rem;
-  border-bottom: solid 0.01rem #f6f6f6;
-}
-.re-massage-notification li {
-  width: 50%;
-  text-align: center;
-  float: left;
-  line-height: 0.83rem;
-}
-.re-massage-notification img {
-  width: 50%;
-  position: absolute;
-  top: 0.79rem;
-}
-.re-system-massage {
-  width: 100%;
-  color: #a0a0a0;
-  background: #f6f6f6;
-  padding-top: 0.16rem;
-}
-.re-system-massage div {
-  padding: 0.15rem 0;
-  border-bottom: solid 0.01rem #f6f6f6;
-  border-top: solid 0.01rem #f6f6f6;
-  background: #ffffff;
-  margin-bottom: 0.16rem;
-}
-.re-system-massage div p {
-  font-size: 0.24rem;
-  padding: 0 0.26rem;
-  height: 0.55rem;
-  line-height: 0.55rem;
-}
-.re-system-massage div p span {
-  float: left;
-}
-.re-system-massage div p span:nth-child(1) {
-  color: #000000;
-  font-size: 0.29rem;
-}
-.re-system-massage div p span:nth-child(2) {
-  float: right;
-  font-size: 0.27rem;
-}
-.re-system-massage div p img {
-  float: right;
-  width: 0.14rem;
-  height: 0.25rem;
-  margin-top: 0.36rem;
-}
 .re-unbundling-card {
   width: 100%;
 }
 .re-unbundling-card .re-card-massage {
   width: 5.88rem;
-  background: url(../../../images/re-icbcbg.png) no-repeat;
+  background: url(../../../build/images/re-icbcbg.png) no-repeat;
   background-size: 100%;
   margin: 0.25rem auto;
 }
@@ -1513,16 +2204,43 @@ html {
   width: 100%;
 }
 .re-unbundling-success p {
-  width: 5.2rem;
+  width: 5.76rem;
   margin: 0 auto;
   color: #000000;
-  font-size: 0.27rem;
-  padding: 0 0.43rem;
+  font-size: 0.29rem;
   text-align: center;
   line-height: 0.42rem;
   margin-top: 0.95rem;
 }
-.re-unbundling-success .re-enter-code {
-  width: 5.2rem;
-  background: #000000;
+.re-confirmation-information {
+  background: #f6f6f6;
+  width: 100%;
+}
+.re-confirmation-information .re-momeny-message {
+  background: #ffffff;
+  border-top: solid 0.01rem #f6f6f6;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-confirmation-information .re-momeny-message .re-header-message {
+  background: #f6f6f6;
+  color: #000000;
+  font-size: 0.27rem;
+  line-height: 0.67rem;
+  padding: 0 0.25rem;
+}
+.re-confirmation-information .re-momeny-message li {
+  font-size: 0.27rem;
+  width: 92%;
+  margin: 0 auto;
+  background: #ffffff;
+  line-height: 0.96rem;
+  border-top: solid 0.01rem #f6f6f6;
+}
+.re-confirmation-information .re-momeny-message li span:nth-child(1) {
+  float: left;
+  color: #a0a0a0;
+}
+.re-confirmation-information .re-momeny-message li span:nth-child(2) {
+  float: right;
+  color: #000000;
 }

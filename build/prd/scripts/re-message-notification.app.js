@@ -45,7 +45,7 @@
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(29);
+	module.exports = __webpack_require__(41);
 
 
 /***/ }),
@@ -74,25 +74,25 @@
 
 /***/ }),
 
-/***/ 29:
+/***/ 41:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	__webpack_require__(30);
+	__webpack_require__(42);
 
 
 
 /***/ }),
 
-/***/ 30:
+/***/ 42:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	var str = __webpack_require__(31);
+	var str = __webpack_require__(43);
 
 	var common = __webpack_require__(4);
 
@@ -102,10 +102,10 @@
 
 /***/ }),
 
-/***/ 31:
+/***/ 43:
 /***/ (function(module, exports) {
 
-	module.exports = "<ul class=\"re-massage-notification\">	<li class=\"re-system re-tiger\">系统通知</li>	<li class=\"re-notice\">公告消息</li>		<div class=\"re-clear\"></div>	<img src=\"images/re-notificationbottom.png\" alt=\"\" /></ul>"
+	module.exports = "<ul class=\"re-route\">	<li class=\"re-system re-tiger\">系统通知</li>	<li class=\"re-notice\">公告消息</li>		<div class=\"re-clear\"></div>	<img src=\"images/re-notificationbottom.png\" alt=\"\" /></ul>"
 
 /***/ })
 

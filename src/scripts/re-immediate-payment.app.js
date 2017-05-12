@@ -1,0 +1,1 @@
+require('./views/re-immediate-payment.js');

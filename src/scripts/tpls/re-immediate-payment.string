@@ -1,0 +1,32 @@
+<ul class="re-immediate-payment">
+	<li>
+		<span>你找我租分期</span>
+		<span>￥2000.00</span>
+		<div class="re-clear"></div>
+	</li>
+	<li>
+		<span>收款商户</span>
+		<span>海华财富投资管理（北京）有限公司</span>
+		<div class="re-clear"></div>
+	</li>
+</ul>
+<div class="re-send-code">
+	<p>本次交易短信确认已向您的尾号1992的手机发送验证码</p>
+	<p>60秒</p>
+	<div class="re-clear"></div>
+</div>
+<div class = "re-pay-code">
+	<div class="re-enter-code">
+		<input type="number" />
+		<input type="number" />
+		<input type="number" />
+		<input type="number" />
+		<input type="number" />
+		<input type="number" />
+	</div>
+</div>
+<div class="re-login-footer">
+    <a class="re-submit-btn" href="##">
+      <span>完成</span>
+    </a>
+  </div>

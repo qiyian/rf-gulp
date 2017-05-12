@@ -1,0 +1,261 @@
+.re-repayment-details{
+    .width(100%);
+    .background(@colorRice);
+
+    .re-contract-header{
+        .height(0.82rem);
+        .width(100%);
+        .color(@colorBlack);
+        .lineHeight(0.82rem);
+        .background(@colorWhite);
+        .borderBottom(0.01rem @colorRice);
+        i{
+            .color(@colorTiger);
+            .marginLeft(0.24rem);
+
+        };
+        span{
+            .fontSize(0.31rem);
+            .marginLeft(0.18rem);
+        };
+        img{
+            .width(0.14rem) ;
+            .marginLeft(3.30rem);
+        }
+    };
+    .re-contract-main{
+        .background(@colorWhite);
+        .padding(0.08rem 0);
+        .marginBottom(0.21rem);
+
+        li{
+            .color(@colorGrey);
+            .fontSize(0.27rem);
+            .padding(0 0.26rem);
+            .lineHeight(0.56rem);
+        };
+        span{
+            .float(left);
+        };
+        span:nth-child(1){
+            .width(0.54rem);
+            .marginRight(0.32rem);
+        };
+        span:nth-child(2){
+            .color(@colorBlack);
+        };
+        p{
+//              .width(90%);
+            .color(@colorBlack);
+            .float(left);
+            .padding(0 0.86rem);
+        }
+    };
+    .re-detailed{
+        .width(100%);
+        .background(@colorWhite);
+        .re-detailed-header{
+            .textAlign(center);
+            .lineHeight(0.92rem);
+            .marginBottom(0.21rem);
+            .borderBottom(0.01rem @colorRice);
+            span{
+                .color(@colorTiger);
+                .fontSize(0.24rem);
+            };
+            img{
+                .width(0.20rem);
+                .height(0.18rem);
+                .marginLeft(0.10rem);
+
+            }
+        };
+        .re-detailed-main{
+            .width(100%);
+            .color(@colorBlack);
+            li{
+                .width(100%);
+                .textAlign(center);
+                .height(0.94rem);
+                .lineHeight(0.94rem);
+                .borderBottom(0.01rem @colorRice);
+                .fontSize(0.25rem);
+                span{
+                    .display(block);
+                    .float(left);
+                };
+                span:nth-child(1){
+                    .width(1.2rem);
+                };
+                span:nth-child(2){
+                    .width(2.4rem);
+                };
+                span:nth-child(3){
+                    .width(1.75rem);
+                };
+                span:nth-child(4){
+                    .width(1.05rem);
+                };
+
+            };
+            
+            li:nth-child(1){
+                .background(@colorCantaloupe);
+                .color(@colorTiger);
+                .height(0.69rem);
+                .lineHeight(0.69rem);
+            };
+            li:not(:first-child){
+                span:nth-child(4){
+                    .position(relitive);
+                    .color(@colorGrey);
+                    .height(100%);
+                    label{
+                        .position(absolute);
+                        img{
+                            .position(absolute);
+                            .width(0.29rem);
+                            .left(-0.15rem);
+                            .top(0.37rem);
+                        }
+                    };
+                    input{
+                        .position(absolute);
+                        .top(0.37rem);
+                    }
+                }
+            }
+        }
+    };
+};
+.re-optional-repayment{
+    .width(100%);
+    .height(0.97rem);
+    .position(fixed);
+    .bottom(0);
+    .borderTop(0.01rem @colorRice);
+    div{
+        .width(4.04rem);
+        .height(100%);
+        .float(left);
+        .color(@colorBlack);
+        
+        div{
+          .height(0.4rem);
+          .lineHeight(0.4rem);  
+          .marginTop(0.10rem);
+          img{
+            .width(0.29rem);
+            .float(left);
+            .marginTop(0.15rem);
+            .marginLeft(0.21rem);
+          };
+          div{
+              .width(2rem);
+              .float(left);
+              .marginLeft(0.2rem);
+              .fontSize(0.28rem);
+              span{
+                  .color(@colorTiger);
+              };
+          };
+          
+        };
+        p{
+          .marginLeft(0.7rem);
+          .fontSize(0.19rem);
+          .color(@colorGrey);
+          .lineHeight(0.4rem)
+        }
+    };
+    a{
+        .width(2.36rem);
+        .height(100%);
+        .float(right);
+        .background(@colorTiger);
+        .fontSize(0.29rem);
+        .textAlign(center);
+        .lineHeight(0.97rem);
+    }
+};
+.re-payment-method{
+    .color(@colorBlack);
+    .width(100%);
+    .height(5.56rem);
+    .background(@colorWhite);
+    .zIndex(200);
+    .position(fixed);
+    li{
+        .borderBottom(0.01rem @colorRice);
+        .lineHeight(0.8rem);
+        .position(relitive);
+        .fontSize(0.26rem);
+        span{
+            .marginLeft(0.96rem);
+        };
+        label{
+            display: block;
+            width: 0.28rem;
+            .float(right);
+            .position(absolute);
+            .right(0.24rem);
+            
+            img{
+                .width(100%);
+                .position(absolute);
+            };
+        }
+    };
+    li:nth-child(1){
+        .textAlign(center);
+        .fontSize(0.3rem);
+        img{
+            .width(0.24rem);
+            .position(absolute);
+            .left(0.23rem);
+            .top(0.29rem);
+        };
+        
+        
+    };
+    li:nth-child(2){
+        .position(relitive);
+        .re-cardbg{
+            .width(0.48rem);
+            .position(absolute);
+            .left(0.23rem);
+            .top(1rem);
+        };
+        span{
+            .marginLeft(0.96rem);
+            .float(left);
+        };
+        label{
+            .top(1.1rem);
+        }
+        
+    };
+    li:nth-child(3){
+        .marginBottom(0.82rem);
+        .re-alipaybg{
+            .width(0.48rem);
+            .position(absolute);
+            .left(0.23rem);
+            .top(1.75rem);
+        };
+        span:nth-child(2){
+            .marginLeft(0.96rem);
+            .float(left);
+        };
+        span:nth-child(3){
+            .marginLeft(0rem);
+            .fontSize(0.2rem);
+            .color(@colorGrey);
+            .float(left);
+        };
+        label{
+            .top(1.9rem);
+        }
+        
+    }
+}

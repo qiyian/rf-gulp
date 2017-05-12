@@ -1,0 +1,54 @@
+<section class="stagePro_container">
+  <h1 class="stagePro_banner">
+    <img src="/build/images/stageProcess/banner.jpg" alt="">
+  </h1>
+  <section class="stagePro_content">
+    <div class="stagePro_title">公司介绍</div>
+    <p class="marginTop stagePro_center">你找我租——隶属于海华普诚信用管理（北京）有限公司，是一个移动互联网+租房场景+分期服务商。</p>
+    <p class="stagePro_center">我们搭建租客与公寓的链接桥梁，我们把有分期需求的优质租客推荐给我们合作的品牌公寓，同时把我们合作的品质</p>
+    <p class="marginBottom stagePro_center">公寓也推荐给广大优质租客，做双向推荐。</p>
+    <div class="stagePro_title">申请流程</div>
+    <ul class="stagePro_main">
+      <li>
+        <p class="stagePro_mainl1">
+          <span><em>①</em>申请分期</span>
+          <i>提交分期审核基础信息后，工作人员会与您联系。</i>
+        </p>
+        <img class="stageImg1" src="/build/images/stageProcess/stage1.png" alt="" />
+      </li>
+      <li>
+        <img class="stageImg2" src="/build/images/stageProcess/stage2.png" alt="" />
+        <p class="stagePro_mainr1">
+          <span><em>②</em>签订合同</span>
+          <i>租客与合作公寓签订房租合同，提交个人资料。</i>
+        </p>
+      </li>
+      <li>
+        <p class="stagePro_mainl2">
+          <span><em>③</em>资质审核</span>
+          <i>个人资料提交完成后，工作人员会与您联系，审核个人信息。</i>
+        </p>
+        <img class="stageImg3" src="/build/images/stageProcess/stage3.png" alt="" />
+      </li>
+      <li>
+        <img class="stageImg4" src="/build/images/stageProcess/stage4.png" alt="" />
+        <p class="stagePro_mainr2">
+          <span><em>④</em>急速放款</span>
+          <i>资质审核完成，你找我租会尽快放款。</i>
+        </p>
+      </li>
+      <li>
+        <p class="stagePro_mainl3">
+          <span><em>⑤</em>按月还款</span>
+          <i>租客通过审核后，你找我租会将为租客垫付房租，租客则每月在还款日还房租给你找我租。</i>
+        </p>
+        <img class="stageImg5" src="/build/images/stageProcess/stage5.png" alt="" />
+      </li>
+    </ul>
+  </section>
+  <div class="re-login-footer">
+    <a class="re-submit-btn" href="##">
+      <span>申请分期</span>
+    </a>
+  </div>
+</section>

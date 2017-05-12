@@ -1,0 +1,106 @@
+.re-paybg{
+    .background(@colorRice);
+    .re-pay-message{
+        .width(100%);
+        .color(@colorBlack);
+        .borderBottom(0.01rem @colorRice);
+        .marginBottom(0.21rem);
+        li{
+            .fontSize(0.27rem);
+            .width(91.5%);
+            .padding(0 0.27rem);
+            .lineHeight(0.95rem);
+            .background(@colorWhite);
+            span:nth-child(1){
+                .color(@colorGrey);
+                .float(left);
+            };
+            span:nth-child(2){
+                .float(right);
+            };
+        };
+        li:nth-child(1){
+            .borderBottom(0.01rem @colorRice);
+        }
+    };
+    .re-card-message{
+        .background(@colorWhite);
+        .width(91.5%);
+        .padding(0.2rem 0.27rem);
+        .lineHeight(0.3rem);
+        .borderTop(0.01rem @colorRice);
+        .borderBottom(0.01rem @colorRice);
+        .marginBottom(0.21rem);
+        img{
+            .width(0.59rem);
+            .float(left);
+            .marginTop(0.05rem);
+        };
+        .re-card-main{
+            .width(3.64rem);
+            .float(left);
+            .margin(0.1rem 0.2rem);
+            .color(@colorBlack);
+            
+            p:nth-child(2){
+                .color(@colorGrey);
+            }
+        }
+    };
+    .re-pay-person{
+        .background(@colorWhite);
+        .fontSize(0.27rem);
+        .borderTop(0.01rem @colorRice);
+        .borderBottom(0.01rem @colorRice);
+        li{
+            .width(5.95rem);
+            .height(0.96rem);
+            .lineHeight(0.96rem);
+            .margin(0 auto);
+            .position(relative);
+            .borderTop(0.01rem @colorRice);
+            span:nth-child(1){
+                .float(left);
+                .width(0.9rem);
+                .color(@colorGrey);
+            };
+            input{
+                .marginLeft(0.45rem);
+                
+            };
+            a{
+                .fontSize(0.22rem);
+                .display(block);
+                .width(1.53rem);
+                .height(0.51rem);
+                .background(url(../../../build/images/re-pay-codebg.png) no-repeat); 
+                .position(absolute);
+                .top(0.22rem);
+                .right(0);
+                .lineHeight(0.51rem);
+                .textAlign(center);
+                .backgroundSize(100% 100%);
+            }
+        }
+    };
+    .re-login-footer{
+        .background(@colorWhite);
+        .margin(0);
+        .paddingTop(0.6rem);
+    };
+    .re-agreement{
+        .background(@colorWhite);
+        .color(@colorGrey);
+        .padding(0 0.3rem);
+        .lineHeight(0.62rem);
+        input{
+            .width(0.23rem);
+            .height(0.23rem);
+            .float(left);
+            .marginTop(0.21rem);
+            .marginRight(0.24rem);
+            .background(@colorGrey);
+        };
+    }
+}
+

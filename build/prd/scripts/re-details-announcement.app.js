@@ -45,7 +45,7 @@
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(20);
+	module.exports = __webpack_require__(23);
 
 
 /***/ }),
@@ -74,25 +74,25 @@
 
 /***/ }),
 
-/***/ 20:
+/***/ 23:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	__webpack_require__(21);
+	__webpack_require__(24);
 
 
 
 /***/ }),
 
-/***/ 21:
+/***/ 24:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	var str = __webpack_require__(22);
+	var str = __webpack_require__(25);
 
 	var common = __webpack_require__(4);
 
@@ -102,7 +102,7 @@
 
 /***/ }),
 
-/***/ 22:
+/***/ 25:
 /***/ (function(module, exports) {
 
 	module.exports = "<div class=\"re-details-announcement\">	<p>		<span>系统维护</span>		<span>20:20</span>	</p>	<p>系统升级4月20至4月22下午三点不可以退款系统升级4月20至4月22下午三点不可以退款系统升级4月20至4月22下午三点不可以退款系统升级4月20至4月22下午三点不可以退款系统升级4月20至4月22下午三点不可以退款系统升级4月20至4月22下午三点不可以退款系统升级4月20至4月22下午三点不可以退款系统升级4月20至4月22下午三点不可以退款</p></div>"

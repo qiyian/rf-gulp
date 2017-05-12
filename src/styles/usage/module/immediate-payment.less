@@ -1,0 +1,50 @@
+.re-immediate-payment{
+    .width(100%);
+    .borderBottom(0.01rem @colorRice);
+    li{
+        .width(5.95rem);
+        .margin(0 auto);
+        .lineHeight(0.97rem);
+        .fontSize(0.27rem);
+        span:nth-child(1){
+            .float(left);
+            .color(@colorGrey);
+            .fontSize(0.27rem);
+        };
+        span:nth-child(2){
+            .float(right);
+            .color(@colorBlack);
+        }
+    };
+    li:nth-child(1){
+        .borderBottom(0.01rem @colorRice);
+    }
+}
+.re-send-code{
+    .width(5.95rem);
+    .margin(0 auto);
+    .marginTop(0.87rem);
+    .marginBottom(0.1rem);
+    p:nth-child(1){
+        .float(left);
+        .width(4.5rem);
+        .fontSize(0.27rem);
+        .color(@colorBlack);
+        .lineHeight(0.47rem);
+    };
+    p:nth-child(2){
+        .float(right);
+        .width(0.74rem);
+        .height(0.4rem);
+        .fontSize(0.25rem);
+        .textAlign(center);
+        .lineHeight(0.4rem);
+        .background(@colorCloud);
+        .borderRadius(0.05rem);
+    };
+};
+.re-pay-code{
+    .re-enter-code{
+        .margin(0.3rem auto);
+    }
+}

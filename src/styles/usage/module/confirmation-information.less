@@ -1,0 +1,32 @@
+.re-confirmation-information{
+    .background(@colorRice);
+    .width(100%);
+    .re-momeny-message{
+        .background(@colorWhite);
+        .borderTop(0.01rem @colorRice);
+        .borderBottom(0.01rem @colorRice);
+        .re-header-message{
+            .background(@colorRice);
+            .color(@colorBlack);
+            .fontSize(0.27rem);
+            .lineHeight(0.67rem);
+            .padding(0 0.25rem);
+        };
+        li{
+            .fontSize(0.27rem);
+            .width(92%);
+            .margin(0 auto);
+            .background(@colorWhite);
+            .lineHeight(0.96rem);
+            .borderTop(0.01rem @colorRice);
+            span:nth-child(1){
+                .float(left);
+                .color(@colorGrey);
+            };
+            span:nth-child(2){
+                .float(right);
+                .color(@colorBlack);
+            };
+        }
+    }
+}

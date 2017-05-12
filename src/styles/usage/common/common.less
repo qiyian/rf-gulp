@@ -9,14 +9,14 @@
 @colorArctic:#00cbca;
 @colorSapphire：#018c77;
 @colorCerulean:#1fabc6;
-@colorFern:#5ac25f ;
+@colorFern:#5ac25f;
 @colorCharcoal:#707070;
 @colorArctic:#73e0d4;
 @colorGrey:#a0a0a0;
 @colorCloud:#bbbbbc;
 @colorBlush:#c74f58;
 @colorCloud:#c9c9c9;
-@colorApple:#e8382c ;
+@colorApple:#e8382c;
 @colorTiger:#f46d23;
 @colorTangerine:#f7953e;
 @colorDaisy:#f8f8f8;
@@ -24,6 +24,10 @@
 @colorRice:#f6f6f6;
 @colorCantaloupe:#fef5ef;
 @colorPearl:#e1e1e1;
+@colorCoin:#dcdcdc;
+@colorAshes:#898989;
+@colorOrange:#fd7c04;
+@colorBloodRed:#e60012;
 
 .background(@color){
     background: @color;
@@ -136,8 +140,21 @@
 .boxShadow(@pixel){
     box-shadow: @pixel;
 }
-
-
+.textIndent(@number){
+  text-indent: @number;
+}
+.verticalAlign(@pixel){
+  vertical-align: @pixel;
+}
+.alignItem(@pixel){
+  align-items: @pixel;
+}
+.justifyContent(@pixel){
+  justify-content:@pixel;
+}
+.flexDirection(@pixel){
+  flex-direction:@pixel;
+}
 
 
 .re-hide{
@@ -157,7 +174,7 @@ body,html{
     .width(100%);
 }
 
-// 弹出模态框
+// 弹出蒙层
 .re-mask{
     .width(100%);
     .height(100%);
@@ -194,4 +211,39 @@ body,html{
         .fontSize(0.2rem);
         .color(@colorGrey);
     };
+};
+
+//输入验证码
+.re-enter-code{
+    .width(5.76rem);
+    .textAlign(center);
+    .margin(0.73rem auto);
+    input{
+        .width(0.8rem);
+        .height(0.5rem);
+        .borderBottom(0.02rem @colorCoin);
+        .textAlign(center);
+        .fontSize(0.3rem);
+        .margin(0 0.05rem);
+        .marginBottom(0.91rem)
+    }
+}
+//路由样式
+.re-route{
+    .position(reletive);
+    .width(100%);
+    .color(@colorBlack);
+    .fontSize(0.27rem);
+    .borderBottom(0.01rem @colorRice);
+    li{
+        .width(50%);
+        .textAlign(center);
+        .float(left);
+        .lineHeight(0.83rem);
+    };
+    img{
+        .width(50%);
+        .position(absolute);
+        .top(0.79rem);
+    }
 };

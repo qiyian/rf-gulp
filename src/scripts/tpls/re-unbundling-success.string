@@ -8,4 +8,9 @@
 		<input type="number" />
 		<input type="number" />
 	</div>
+	<div class="re-login-footer">
+	    <a class="re-submit-btn" href="##">
+	      <span>确定</span>
+	    </a>
+	  </div>
 </div>
