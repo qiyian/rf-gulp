@@ -1,0 +1,96 @@
+.rentInstallApply_btn{
+  margin-top: 1.1rem;
+  p{
+    text-align: left;
+    height: 0.36rem;
+    line-height: 0.4rem;
+    input{
+      width: 0.21rem;
+      height: 0.21rem;
+      border: 1px solid #b7b7b7;
+      margin-right: 0.13rem;
+    }
+    input.select:after{
+      position: relative;
+      left: 0.04rem;
+      display: block;
+      content: '';
+      width: 0.06rem;
+      height: 0.11rem;
+      border: 2px solid @colorFern;
+      border-top: none;
+      border-left: none;
+      -webkit-transform: rotate(30deg);
+    	-moz-transform: rotate(30deg);
+    	-o-transform: rotate(30deg);
+    	-ms-transform: rotate(30deg);
+    	transform: rotate(30deg);
+    }
+  }
+}
+.rentInstallApply{
+  position: relative;
+  .rentInstallApply_select{
+    font-size: 0.28rem;
+    overflow: visible!important;
+    .rentInstallApply_selectval{
+      display: inline-block;
+      width: 60%;
+      float: right;
+      margin-left: 0.2rem;
+      color: @colorBlack;
+      background: url(/build/images/basicInfo/arrowdown.png) no-repeat right center;
+      background-size: 0.24rem;
+    }
+  }
+  .rentInstallApply_selectlist{
+    position: absolute;
+    background: @colorWhite;
+    z-index: 1;
+    width: 100%;
+    color: @colorBlack;
+    border: 1px solid @colorCoin;
+    li{
+      height: 0.53rem;
+      line-height: 0.53rem;
+      font-size: 0.26rem;
+      padding: 0 5%;
+    }
+    li.active{
+      background: @colorFern;
+      color: @colorWhite;
+    }
+  }
+  .rentInstallApply_select1{
+    display: flex;
+    justify-content: space-between;
+    p{
+      font-size: 0.28rem;
+      width: 49%;
+      height: 0.73rem;
+      line-height: 0.73rem;
+      display: flex;
+      justify-content: space-between;
+      i.rentInstallApply_selectval{
+        display: inline-block;
+        width: 46%;
+        margin-left: 0.2rem;
+        color: @colorBlack;
+        background: url(/build/images/basicInfo/arrowdown.png) no-repeat right center;
+        background-size: 0.24rem;
+      }
+    }
+  }
+  div.rentInstallApply_selectCity{
+    height: 0;
+    ul{
+      width: 50%;
+    }
+    ul.rentInstallApply_select1listr{
+      margin-left: 50%;
+    }
+  }
+  .rentInstallApply_selectval{
+    margin: 0!important;
+  }
+}

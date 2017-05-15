@@ -45,7 +45,7 @@
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(53);
+	module.exports = __webpack_require__(92);
 
 
 /***/ }),
@@ -74,25 +74,25 @@
 
 /***/ }),
 
-/***/ 53:
+/***/ 92:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	__webpack_require__(54);
+	__webpack_require__(93);
 
 
 
 /***/ }),
 
-/***/ 54:
+/***/ 93:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	var str = __webpack_require__(55);
+	var str = __webpack_require__(94);
 
 	var common = __webpack_require__(4);
 
@@ -102,7 +102,7 @@
 
 /***/ }),
 
-/***/ 55:
+/***/ 94:
 /***/ (function(module, exports) {
 
 	module.exports = "<div class=\"re-header\">  <img src=\"/build/images/re-logo.png\" alt=\"\" /></div><div class=\"re-main\">  <div class=\"re-ipt\">    <div>      <span>输入手机号</span>      <input type=\"text\" />    </div>    <div>      <span>输入验证码</span>      <input type=\"text\" />      <a class=\"re-code\" href=\"##\">        <img src=\"/build/images/re-codebg.png\"/>        <span>获取验证码</span>      </a>    </div>    <div>      <span>获取新密码</span>      <input type=\"text\" />    </div>    <p>密码格式为6-16位数字，字母或符号，不允许有空格</p>  </div>  <div class=\"re-login-footer\">    <a class=\"re-submit-btn\" href=\"##\">      <span>完成登录</span>    </a>  </div></div>"

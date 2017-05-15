@@ -1,0 +1,17 @@
+<div class="re-lianlian-card">
+			<p class="">
+				<span>租客姓名</span>
+				<span>张三</span>
+			</p>
+			<div class="re-card-num">
+				<input type="text" placeholder="输入银行卡卡号"/>
+			</div>
+		</div>
+		<div class="re-login-footer">
+		    <a class="re-submit-btn" href="##">
+		      <span>确定</span>
+		    </a>
+			<p>
+				<a href="##">查看支持银行列表</a>
+			</p>
+		  </div>

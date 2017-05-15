@@ -1,0 +1,86 @@
+.re-about{
+    .background(url(../../../build/images/re-aboutbg.png) no-repeat);
+    .backgroundSize(100%);
+    .padding(0 0.23rem);
+    .paddingTop(0.72rem);
+    .re-about-header{
+        .width(6rem);
+        .height(0.9rem);
+        .background(url(../../../build/images/re-about-headbg.png) no-repeat);
+        .backgroundSize(100%);
+        .margin(0 auto);
+        
+    };
+    .re-num-time{
+        .color(@colorBlack);
+        .textAlign(center);
+        .margin(0.28rem 0);
+        p:nth-child(1){
+            .fontSize(0.34rem);
+        };
+        p:nth-child(2){
+            .fontSize(0.23rem);
+            .lineHeight(0.48rem);
+            
+        };
+        
+    };
+    .re-about-main{
+        .width(92.8%);
+        .margin(0 auto );
+        .background(@colorArctic);
+        .borderRadius(0.2rem);
+
+        .re-introduce{
+            .height(0.69rem);
+            .position(relative);
+            p{
+                .width(1.87rem);
+                .textAlign(center);
+                .fontSize(0.37rem);
+                .fontWeight(600);
+                .position(absolute);
+                .top(0.42rem);
+                .left(1.9rem);
+                .background(@colorArctic);
+                .zIndex(99);
+                .color(@colorApple);
+            };
+            hr{
+                .position(absolute);
+                .bottom(0);
+            }
+        };
+        .re-introduce-main{
+            .padding(0rem 0.33rem);
+            .paddingTop(0.11rem);
+            .textAlign(center);
+            .color(@colorBlack);
+            p{
+                .margin(0.42rem 0);
+                .lineHeight(0.43rem);
+                .fontSize(0.23rem);
+            };
+            iframe{
+                .height(3.13rem);
+                .marginTop(0.63rem);
+                .marginBottom(0.9rem);
+            };
+            
+            img{
+                .width(100%);
+                .marginTop(0.69rem);
+                .marginBottom(0.5rem);
+            }
+            
+            
+        }
+    };
+    .re-about-footer{
+        .textAlign(center);
+        .fontSize(0.23rem);
+        .color(@colorBlack);
+        .lineHeight(0.70rem);
+    }
+    
+}

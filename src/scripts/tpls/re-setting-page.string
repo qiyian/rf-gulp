@@ -1,0 +1,34 @@
+<ul class="re-settingtop re-setting">
+  <li>
+    <span>更换手机绑定</span>
+    <i>></i>
+  </li>
+  <li>
+    <span>修改密码</span>
+    <i>></i>
+  </li>
+</ul>
+<div class="re-settingGrey"></div>
+<ul class="re-settingtop re-setting">
+  <li>
+    <span>开启自动还款</span>
+    <i>></i>
+  </li>
+</ul>
+<div class="re-settingGrey"></div>
+<ul class="re-settingtop re-setting">
+  <li>
+    <span>使用帮助</span>
+    <i>></i>
+  </li>
+  <li>
+    <span>投诉建议</span>
+    <i>></i>
+  </li>
+  <li>
+    <span>当前版本</span>
+    <i>v1.2 &ensp;></i>
+  </li>
+</ul>
+<div class="re-settingGrey"></div>
+<button class="re-settingBtn">退出登陆</button>

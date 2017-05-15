@@ -1,0 +1,7 @@
+<div class="re-pay-status">
+				<img src="build/images/re-pay-failure.png"/>
+				<p>本次交易失败，建议重新绑定银行卡</p>
+				<p>拨打商家客服咨询</p>
+			
+		</div>
+		

@@ -1,4 +1,182 @@
 [type=tpl] {
+<<<<<<< HEAD
+  display: none;
+}
+
+@baseColor: #ee574d;
+
+
+@colorBlack:#000000;
+@colorArctic:#00cbca;
+@colorSapphire：#018c77;
+@colorCerulean:#1fabc6;
+@colorFern:#5ac25f ;
+@colorCharcoal:#707070;
+@colorArctic:#73e0d4;
+@colorGrey:#a0a0a0;
+@colorCloud:#bbbbbc;
+@colorBlush:#c74f58;
+@colorCloud:#c9c9c9;
+@colorApple:#e8382c ;
+@colorTiger:#f46d23;
+@colorTangerine:#f7953e;
+@colorDaisy:#f8f8f8;
+@colorWhite:#ffffff;
+@colorRice:#f6f6f6;
+
+.background(@color){
+    background: @color;
+}
+.width(@number){
+    width: @number;
+}
+.height(@number){
+    height: @number;
+}
+.padding(@number){
+    padding: @number;
+}
+.margin(@number){
+    margin: @number;
+}
+.marginTop(@number){
+    margin-top: @number;
+}
+.marginLeft(@number){
+    margin-left: @number;
+}
+.marginRight(@number){
+    margin-right: @number;
+}
+.marginBottom(@number){
+    margin-bottom: @number;
+}
+.display(@pixel){
+    display:@pixel ;
+}
+.lineHeight(@number){
+    line-height: @number;
+}
+.fontSize(@number){
+    font-size: @number;
+}
+.color(@color){
+    color: @color;
+}
+.borderBottom(@number){
+    border-bottom: solid @number;
+}
+.borderTop(@number){
+    border-top: solid @number;
+}
+.border(@number){
+    border: solid @number;
+}
+.borderRight(@number){
+    border-right:solid @number;
+}
+.margin(@number){
+    margin: @number;
+}
+.float(@pixel){
+    float: @pixel;
+}
+.position(@pixel){
+    position: @pixel;
+}
+.top(@number){
+    top: @number;
+}
+.left(@number){
+    left: @number;
+}
+.zIndex(@number){
+    z-index: @number;
+}
+.textAlign(@pixel){
+    text-align: @pixel;
+}
+.overflow(@pixel){
+    overflow: @pixel;
+
+}
+.borderRadius(@number){
+    border-radius: @number;
+}
+.opcity(@number){
+    opacity: @number;
+
+}
+.fontWeight(@number){
+    font-weight: @number;
+}
+.re-hide{
+    display: none;
+}
+.re-show{
+    display: block;
+}
+
+body,html{
+    .width(100%);
+}
+
+// 弹出模态框
+.re-mask{
+    .width(100%);
+    .height(100%);
+    .position(fixed);
+    .top(0);
+    .left(0);
+    .background(@colorBlack);
+    opacity: 0.5;
+
+};
+.re-prompt-box{
+    .width(4.42rem);
+    .height(2.15rem);
+    .position(fixed);
+    .top(3.63rem);
+    .left(0.98rem);
+    .background(@colorWhite);
+    .borderRadius(0.1rem);
+    .border(0.01rem @colorGrey);
+    .overflow(hidden);
+    p{
+        .color(@colorBlack);
+        .fontSize(0.33rem);
+        .textAlign(center);
+        .fontWeight(500);
+        .lineHeight(0.55rem);
+
+    };
+    p:nth-child(1){
+        .marginTop(0.17rem);
+    };
+    p:nth-child(2){
+        .fontSize(0.23rem);
+        .marginBottom(0.17rem)
+    };
+    .re-promptbox-btn{
+        .borderTop(0.01rem @colorDaisy);
+        .width(100%);
+        .height(0.77rem);
+        a{
+            .float(left);
+            .width(2.20rem);
+            .height(0.77rem);
+            .color(@colorTiger);
+            .textAlign(center);
+            .lineHeight(0.77rem);
+            .fontSize(0.28rem);
+
+        };
+        a:nth-child(1){
+            .borderRight(0.01rem @colorDaisy);
+
+        };
+    }
+=======
   display: none;
 }
 
@@ -28,6 +206,8 @@
 @colorAshes:#898989;
 @colorOrange:#fd7c04;
 @colorBloodRed:#e60012;
+@colorCandy:#e60013;
+@colorSlate:#8c949b;
 
 .background(@color){
     background: @color;
@@ -247,3 +427,70 @@ body,html{
         .top(0.79rem);
     }
 };
+
+//支付状态
+.re-pay-status{
+    .width(100%);
+    .textAlign(center);
+    img{
+        .width(1.31rem);
+        .marginTop(1.43rem);
+    };
+    p:nth-child(2){
+        .lineHeight(0.75rem);
+        .fontSize(0.27rem);
+        .color(@colorTiger);
+        .marginTop(0.19rem);
+    };
+    p:nth-child(3){
+        .lineHeight(0.30rem);
+        .fontSize(0.24rem);
+        .color(@colorGrey);
+    }
+};
+.re-login-footer{
+    .marginTop(0.96rem);
+}
+
+
+// 公寓合作、填写资料弹窗
+.re-modalBox{
+  .position(fixed);
+  .left(0);
+  .top(0);
+  .right(0);
+  .bottom(0);
+  .margin(auto);
+  .overflow(hidden);
+  .zIndex(100);
+  .height(4.5rem);
+  .width(89%);
+  .background(@colorWhite);
+  .borderRadius(7px);
+  .border(0.01rem @colorGrey);
+  .textAlign(center);
+  .re-modalLogo{
+    .padding(0.56rem 0);
+    img{
+      .width(43.5%);
+    }
+  }
+  .re-modalcontent{
+    .color(@colorBlack);
+    .padding(0 9%);
+    .fontSize(0.26rem);
+    .lineHeight(0.38rem);
+  }
+  .re-modalBtn{
+    .width(85%);
+    .height(0.89rem);
+    .lineHeight(0.89rem);
+    .fontSize(0.28rem);
+    .background(@colorTiger);
+    .color(@colorWhite);
+    .border(0);
+    .borderRadius(7px);
+    .margin(0.5rem auto);
+  }
+>>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
+}

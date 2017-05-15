@@ -1,0 +1,16 @@
+<div class="re-modifyPwdOld">
+  <span>输入旧密码</span>
+  <input type="text"/>
+</div>
+<div class="re-modifyPwdTop"></div>
+<ul class="re-modifyPwd">
+  <li>
+    <span>输入新密码</span>
+    <input type="text"/>
+  </li>
+  <li>
+    <span>确定新密码</span>
+    <input type="text"/>
+  </li>
+</ul>
+<button class="re-modifyPwdBtn">确定</button>

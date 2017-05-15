@@ -83,8 +83,13 @@ h6 {
 }
 @font-face {
   font-family: 'icomoon';
+<<<<<<< HEAD
+  src: url('fonts/icomoon.eot?69135u');
+  src: url('fonts/icomoon.eot?69135u#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?69135u') format('truetype'), url('fonts/icomoon.woff?69135u') format('woff'), url('fonts/icomoon.svg?69135u#icomoon') format('svg');
+=======
   src: url('fonts/icomoon.eot?uj738e');
   src: url('fonts/icomoon.eot?uj738e#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?uj738e') format('truetype'), url('fonts/icomoon.woff?uj738e') format('woff'), url('fonts/icomoon.svg?uj738e#icomoon') format('svg');
+>>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
   font-weight: normal;
   font-style: normal;
 }
@@ -102,6 +107,8 @@ h6 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+<<<<<<< HEAD
+=======
 .icon-android:before {
   content: "\e996";
 }
@@ -138,6 +145,7 @@ h6 {
 .icon-withdrawal:before {
   content: "\e995";
 }
+>>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
 .icon-rs-alreadycollection2 .path1:before {
   content: "\e952";
   color: #999999;
@@ -651,12 +659,15 @@ h6 {
 .re-show {
   display: block;
 }
+<<<<<<< HEAD
+=======
 .re-clear {
   clear: both;
 }
 .re-tiger {
   color: #f46d23;
 }
+>>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
 body,
 html {
   width: 100%;
@@ -670,6 +681,362 @@ html {
   background: #000000;
   opacity: 0.5;
 }
+<<<<<<< HEAD
+.re-prompt-box {
+  width: 4.42rem;
+  height: 2.15rem;
+  position: fixed;
+  top: 3.63rem;
+  left: 0.98rem;
+  background: #ffffff;
+  border-radius: 0.1rem;
+  border: solid 0.01rem #a0a0a0;
+  overflow: hidden;
+}
+.re-prompt-box p {
+  color: #000000;
+  font-size: 0.33rem;
+  text-align: center;
+  font-weight: 500;
+  line-height: 0.55rem;
+}
+.re-prompt-box p:nth-child(1) {
+  margin-top: 0.17rem;
+}
+.re-prompt-box p:nth-child(2) {
+  font-size: 0.23rem;
+  margin-bottom: 0.17rem;
+}
+.re-prompt-box .re-promptbox-btn {
+  border-top: solid 0.01rem #f8f8f8;
+  width: 100%;
+  height: 0.77rem;
+}
+.re-prompt-box .re-promptbox-btn a {
+  float: left;
+  width: 2.2rem;
+  height: 0.77rem;
+  color: #f46d23;
+  text-align: center;
+  line-height: 0.77rem;
+  font-size: 0.28rem;
+}
+.re-prompt-box .re-promptbox-btn a:nth-child(1) {
+  border-right: solid 0.01rem #f8f8f8;
+}
+.re-index {
+  width: 100%;
+  height: 100%;
+  background: #f6f6f6;
+  position: relative;
+}
+.re-index .re-index-user {
+  width: 100%;
+  height: 2.78rem;
+  background: #000000;
+  text-align: center;
+}
+.re-index .re-index-user img {
+  width: 1.13rem;
+  height: 1.12rem;
+  margin-top: 0.32rem;
+}
+.re-index .re-index-user p {
+  font-size: 0.28rem;
+  line-height: 0.8rem;
+}
+.re-index .re-index-main {
+  width: 5.72rem;
+  height: 8.01rem;
+  background: #f6f6f6;
+  position: absolute;
+  top: 2.29rem;
+  left: 0.34rem;
+  border-top: solid 0.01rem #f6f6f6;
+  border-radius: 0.1rem;
+}
+.re-index .re-index-main .re-repayment-information {
+  width: 5.72rem;
+  background: #ffffff;
+  border-radius: 0.1rem;
+  margin-bottom: 0.2rem;
+}
+.re-index .re-index-main .re-repayment-information .re-main-header {
+  height: 0.77rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+  color: #000000;
+}
+.re-index .re-index-main .re-repayment-information .re-main-header img {
+  width: 0.3rem;
+  height: 0.34rem;
+  margin-left: 0.38rem;
+  margin-top: 0.24rem;
+  float: left;
+}
+.re-index .re-index-main .re-repayment-information .re-main-header span {
+  float: left;
+  width: 3rem;
+  height: 100%;
+  line-height: 0.77rem;
+  margin-left: 0.19rem;
+  font-size: 0.28rem;
+}
+.re-index .re-index-main .re-repayment-information .re-nomassage {
+  text-align: center;
+}
+.re-index .re-index-main .re-repayment-information .re-nomassage img {
+  width: 0.86rem;
+  margin-top: 0.26rem;
+}
+.re-index .re-index-main .re-repayment-information .re-nomassage p {
+  font-size: 0.26rem;
+  color: #a0a0a0;
+  line-height: 0.78rem;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage {
+  width: 100%;
+  height: 1.96rem;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage .re-hasmassage-main {
+  color: #000000;
+  width: 3rem;
+  float: left;
+  margin-top: 0.1rem;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage .re-hasmassage-main li {
+  height: 0.55rem;
+  line-height: 0.55rem;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage .re-hasmassage-main li p {
+  float: left;
+  margin-left: 0.38rem;
+  font-size: 0.26rem;
+  color: #a0a0a0;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage .re-hasmassage-main li span {
+  float: left;
+  margin-left: 0.2rem;
+  font-size: 0.26rem;
+}
+.re-index .re-index-main .re-repayment-information .re-hasmassage .re-hasmassage-btn {
+  float: right;
+  width: 1.59rem;
+  height: 0.58rem;
+  background: #f46d23;
+  text-align: center;
+  line-height: 0.58rem;
+  margin-top: 0.69rem;
+  margin-right: 0.33rem;
+  border-radius: 0.1rem;
+}
+.re-index .re-index-main .re-index-select {
+  width: 5.72rem;
+  height: 3.37rem;
+  background: #ffffff;
+  border-radius: 0.1rem;
+}
+.re-index .re-index-main .re-index-select li {
+  width: 33.3%;
+  height: 0.99rem;
+  margin: 0.37rem 0;
+  float: left;
+  text-align: center;
+  color: #000000;
+}
+.re-index .re-index-main .re-index-select p {
+  line-height: 0.72rem;
+}
+.re-index .re-index-main .re-phone {
+  width: 5.72rem;
+  height: 0.87rem;
+  background: #ffffff;
+  text-align: center;
+  color: #000000;
+  font-size: 0.29rem;
+  line-height: 0.87rem;
+  margin-top: 0.46rem;
+  border-radius: 0.1rem;
+}
+.re-header {
+  text-align: center;
+  margin: 0.38rem 0;
+}
+.re-header img {
+  width: 26.5%;
+}
+.re-main {
+  padding: 0.7rem 0;
+}
+.re-main .re-ipt {
+  margin: 0 auto;
+  width: 84%;
+}
+.re-main .re-ipt div {
+  border-bottom: solid 0.01rem #f8f8f8;
+  height: 0.73rem;
+  font-size: 0.28rem;
+  color: #a0a0a0;
+  line-height: 0.73rem;
+  overflow: hidden;
+}
+.re-main .re-ipt div span {
+  float: left;
+}
+.re-main .re-ipt div input {
+  width: 2rem;
+  height: 100%;
+  margin: 0rem 0.13rem;
+  float: left;
+}
+.re-main .re-ipt div .re-code {
+  float: left;
+  height: 0.51rem;
+  width: 1.53rem;
+  line-height: 0.51rem;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  margin-top: 0.1rem;
+}
+.re-main .re-ipt div .re-code span {
+  position: absolute;
+  top: 0;
+  left: 0.22rem;
+  font-size: 0.22rem;
+}
+.re-main .re-ipt div .re-code img {
+  width: 100%;
+  height: 100%;
+}
+.re-main .re-ipt p {
+  color: #a0a0a0;
+  font-size: 0.22rem;
+  line-height: 0.52rem;
+}
+.re-main .re-loginmode {
+  width: 84%;
+  margin: 0 auto;
+  margin-top: 0.15rem;
+  height: 0.87rem;
+}
+.re-main .re-loginmode .re-login-mode {
+  height: 0.87rem;
+  display: block;
+  line-height: 0.87rem;
+  font-size: 0.28rem;
+  color: #f46d23;
+  float: left;
+}
+.re-main .re-loginmode .re-login-forget {
+  height: 0.87rem;
+  display: block;
+  line-height: 0.87rem;
+  font-size: 0.28rem;
+  color: #f46d23;
+  float: right;
+}
+.re-main .re-login-footer {
+  margin: 0.42rem 0;
+}
+.re-main .re-login-footer .re-login {
+  position: relative;
+  display: block;
+  width: 91%;
+  height: 0.89rem;
+  font-size: 0.3rem;
+  text-align: center;
+  line-height: 0.89rem;
+  margin: 0 auto;
+  background: #f46d23;
+  border-radius: 0.1rem;
+}
+.re-main .re-login-footer p {
+  height: 0.56rem;
+  line-height: 0.56rem;
+  text-align: center;
+  width: 91%;
+  margin: 0 auto;
+  font-size: 0.2rem;
+  color: #a0a0a0;
+}
+.re-personal-data {
+  background: #f6f6f6;
+}
+.re-personal-data .re-personmian {
+  width: 100%;
+  height: 1.92rem;
+  margin: 0rem auto;
+  background: #ffffff;
+  border-bottom: solid 0.01rem #f8f8f8;
+  border-top: solid 0.01rem #f8f8f8;
+}
+.re-personal-data .re-personmian div {
+  width: 93%;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  font-size: 0.26rem;
+  margin: 0 auto;
+  border-bottom: solid 0.01rem #f8f8f8;
+  overflow: hidden;
+}
+.re-personal-data .re-personmian div p {
+  float: left;
+  width: 2rem;
+  color: #a0a0a0;
+}
+.re-personal-data .re-personmian div span {
+  display: block;
+  font-size: 0.27rem;
+  color: #000000;
+  text-align: right;
+  float: right;
+}
+.re-personal-data .re-personmian div:nth-child(2) {
+  border-bottom: solid 0;
+}
+.re-personal-data .re-personmian:nth-child(1) {
+  margin-bottom: 0.19rem;
+}
+.re-persion-massage {
+  background: #f6f6f6;
+}
+.re-persion-massage .re-persion {
+  background: #ffffff;
+  margin-bottom: 0.21rem;
+}
+.re-persion-massage .re-persion .re-persion-header {
+  height: 0.82rem;
+  width: 100%;
+  color: #000000;
+  border-bottom: solid 0.01rem #f6f6f6;
+  line-height: 0.82rem;
+}
+.re-persion-massage .re-persion .re-persion-header i {
+  color: #f46d23;
+  margin-left: 0.24rem;
+}
+.re-persion-massage .re-persion .re-persion-header span {
+  font-size: 0.3rem;
+  margin-left: 0.18rem;
+}
+.re-persion-massage .re-persion .re-persion-main li {
+  color: #a0a0a0;
+  font-size: 0.26rem;
+  padding: 0 0.26rem;
+  line-height: 0.5rem;
+  height: 0.5rem;
+}
+.re-persion-massage .re-persion .re-persion-main span {
+  float: left;
+}
+.re-persion-massage .re-persion .re-persion-main span:nth-child(1) {
+  width: 1.1rem;
+  margin-right: 0.32rem;
+  text-align-last: justify;
+}
+.re-persion-massage .re-persion .re-persion-main span:nth-child(2) {
+  color: #000000;
+=======
 .re-login-footer {
   margin: 0.42rem 0;
 }
@@ -725,6 +1092,67 @@ html {
   width: 50%;
   position: absolute;
   top: 0.79rem;
+}
+.re-pay-status {
+  width: 100%;
+  text-align: center;
+}
+.re-pay-status img {
+  width: 1.31rem;
+  margin-top: 1.43rem;
+}
+.re-pay-status p:nth-child(2) {
+  line-height: 0.75rem;
+  font-size: 0.27rem;
+  color: #f46d23;
+  margin-top: 0.19rem;
+}
+.re-pay-status p:nth-child(3) {
+  line-height: 0.3rem;
+  font-size: 0.24rem;
+  color: #a0a0a0;
+}
+.re-login-footer {
+  margin-top: 0.96rem;
+}
+.re-modalBox {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+  z-index: 100;
+  height: 4.5rem;
+  width: 89%;
+  background: #ffffff;
+  border-radius: 7px;
+  border: solid 0.01rem #a0a0a0;
+  text-align: center;
+}
+.re-modalBox .re-modalLogo {
+  padding: 0.56rem 0;
+}
+.re-modalBox .re-modalLogo img {
+  width: 43.5%;
+}
+.re-modalBox .re-modalcontent {
+  color: #000000;
+  padding: 0 9%;
+  font-size: 0.26rem;
+  line-height: 0.38rem;
+}
+.re-modalBox .re-modalBtn {
+  width: 85%;
+  height: 0.89rem;
+  line-height: 0.89rem;
+  font-size: 0.28rem;
+  background: #f46d23;
+  color: #ffffff;
+  border: solid 0;
+  border-radius: 7px;
+  margin: 0.5rem auto;
 }
 .re-massage {
   width: 100%;
@@ -2220,6 +2648,7 @@ body.bodyGrey .article li img {
   background: #ffffff;
   border-top: solid 0.01rem #f6f6f6;
   border-bottom: solid 0.01rem #f6f6f6;
+  margin-bottom: 0.21rem;
 }
 .re-confirmation-information .re-momeny-message .re-header-message {
   background: #f6f6f6;
@@ -2243,4 +2672,903 @@ body.bodyGrey .article li img {
 .re-confirmation-information .re-momeny-message li span:nth-child(2) {
   float: right;
   color: #000000;
+}
+.re-confirmation-information .re-total-amount {
+  margin-bottom: 0.21rem;
+  border-top: solid 0.01rem #f6f6f6;
+  border-bottom: solid 0.01rem #f6f6f6;
+  width: 92%;
+  line-height: 0.96rem;
+  background: #ffffff;
+  color: #000000;
+  padding: 0 0.25rem;
+  font-size: 0.27rem;
+}
+.re-confirmation-information .re-total-amount span:nth-child(1) {
+  float: left;
+  color: #a0a0a0;
+}
+.re-confirmation-information .re-total-amount span:nth-child(2) {
+  float: right;
+  color: #000000;
+}
+.re-confirmation-information .re-repayment-amount {
+  width: 100%;
+  height: 1.55rem;
+  background: #ffffff;
+  border-top: solid 0.01rem #f6f6f6;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-confirmation-information .re-repayment-amount p:nth-child(1) {
+  width: 92%;
+  margin: 0 auto;
+  color: #a0a0a0;
+  line-height: 0.96rem;
+  font-size: 0.27rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-confirmation-information .re-repayment-amount p:nth-child(1) span {
+  margin-right: 0.6rem;
+}
+.re-confirmation-information .re-repayment-amount p:nth-child(2) {
+  width: 100%;
+  margin: 0 auto;
+  color: #a0a0a0;
+  line-height: 0.6rem;
+  text-align: center;
+  font-size: 0.19rem;
+}
+.re-confirmation-information .re-user-message {
+  background: #ffffff;
+  border-top: solid 0.01rem #f6f6f6;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-confirmation-information .re-user-message .re-header-message {
+  background: #f6f6f6;
+  color: #000000;
+  font-size: 0.27rem;
+  line-height: 0.67rem;
+  padding: 0 0.25rem;
+}
+.re-confirmation-information .re-user-message li {
+  width: 92%;
+  margin: 0 auto;
+  color: #a0a0a0;
+  line-height: 0.96rem;
+}
+.re-confirmation-information .re-user-message li span {
+  float: left;
+  font-size: 0.27rem;
+}
+.re-confirmation-information .re-user-message li span:nth-child(1) {
+  width: 1.17rem;
+}
+.re-confirmation-information .re-user-message li span:nth-child(2) {
+  margin-left: 0.58rem;
+  color: #000000;
+}
+.re-confirmation-information .re-user-message li img {
+  width: 0.14rem;
+  float: right;
+  margin-top: 0.35rem;
+}
+.re-confirmation-information .re-user-message li:nth-child(2) {
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-confirmation-information .re-prompt {
+  width: 92%;
+  padding: 0 0.25rem;
+  background: #ffffff;
+  color: #a0a0a0;
+  line-height: 0.65rem;
+}
+.re-confirmation-information .re-prompt span {
+  font-size: 0.19rem;
+}
+.re-confirmation-information .re-prompt span:nth-child(1) {
+  float: left;
+}
+.re-confirmation-information .re-prompt span:nth-child(2) {
+  float: right;
+}
+.re-confirmation-information .re-login-footer {
+  background: #ffffff;
+  margin: 0;
+  padding-top: 0.25rem;
+}
+.re-tenant-information {
+  width: 100%;
+  background: #f6f6f6;
+  border-top: solid 0.01rem #f6f6f6;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-tenant-information p {
+  background: #ffffff;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  padding: 0 0.25rem;
+  width: 92%;
+  color: #a0a0a0;
+}
+.re-tenant-information p span {
+  font-size: 0.27rem;
+  float: left;
+}
+.re-tenant-information p span:nth-child(2) {
+  float: right;
+  color: #000000;
+}
+.re-tenant-information p:nth-child(1) {
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-tenant-information p:nth-child(2) {
+  margin-bottom: 0.21rem;
+}
+.re-tenant-information .re-bankcard-message {
+  width: 92%;
+  background: #ffffff;
+  padding: 0 0.25rem;
+  font-size: 0.27rem;
+  border-top: solid 0.01rem #f6f6f6;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-tenant-information .re-bankcard-message li {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  color: #000000;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-tenant-information .re-bankcard-message li span {
+  float: left;
+}
+.re-tenant-information .re-bankcard-message li img {
+  width: 0.14rem;
+  float: right;
+  margin-top: 0.35rem;
+}
+.re-tenant-information .re-bankcard-message li:nth-child(3) {
+  border-bottom: solid 0;
+}
+.re-login-footer {
+  background: #ffffff;
+  margin: 0;
+  padding-top: 0.58rem;
+}
+.re-lianlian-card {
+  width: 100%;
+  background: #f6f6f6;
+  border-top: solid 0.01rem #f6f6f6;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-lianlian-card p {
+  background: #ffffff;
+  border-bottom: solid 0.01rem #f6f6f6;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  padding: 0 0.25rem;
+  width: 92%;
+  color: #a0a0a0;
+  margin-bottom: 0.21rem;
+}
+.re-lianlian-card p span {
+  font-size: 0.27rem;
+  float: left;
+}
+.re-lianlian-card p span:nth-child(2) {
+  float: right;
+  color: #000000;
+}
+.re-lianlian-card .re-card-num {
+  background: #ffffff;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  width: 92%;
+  padding: 0 0.25rem;
+  font-size: 0.27rem;
+}
+.re-login-footer p {
+  line-height: 1.02rem;
+}
+.re-login-footer p a {
+  color: #e60013;
+}
+.re-addcard-btn {
+  width: 5.86rem;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  margin: 0 auto;
+  border: solid 0.01rem #8c949b;
+  border-radius: 0.1rem;
+  text-align: center;
+  margin-top: 1.06rem;
+}
+.re-addcard-btn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+  position: relative;
+}
+.re-addcard-btn a img {
+  width: 0.26rem;
+  margin-right: 0.13rem;
+  position: absolute;
+  left: 1.99rem;
+  top: 0.33rem;
+}
+.re-addcard-btn a span {
+  margin-left: 0.13rem;
+}
+.re-bank-list {
+  color: #000000;
+  width: 95.9%;
+  padding: 0 0.13rem;
+}
+.re-bank-list li {
+  border-bottom: solid 0.01rem #f6f6f6;
+  height: 1.36rem;
+  line-height: 1.36rem;
+}
+.re-bank-list li img {
+  float: left;
+  width: 1.1rem;
+  margin: 0.1rem 0.33rem;
+}
+.re-bank-list li div {
+  line-height: 0.4rem;
+  float: left;
+  margin-left: 0.35rem;
+}
+.re-bank-list li div p:nth-child(1) {
+  font-size: 0.38rem;
+  margin-top: 0.2rem;
+}
+.re-bank-list li div p:nth-child(2) {
+  font-size: 0.25rem;
+  color: #a0a0a0;
+}
+.re-login-footer {
+  padding: 0;
+  margin-top: 0.96rem;
+}
+.re-pay-footer {
+  width: 5.8rem;
+  margin: 0.95rem auto;
+}
+.re-pay-footer a {
+  float: left;
+  background: #f46d23;
+  border-radius: 0.1rem;
+  font-size: 0.3rem;
+  width: 2.73rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  text-align: center;
+}
+.re-pay-footer a:nth-child(1) {
+  margin-right: 0.34rem;
+}
+.re-pay-footer a:nth-child(2) {
+  background: #707070;
+}
+.re-common-problem {
+  width: 92%;
+  padding: 0 0.25rem;
+}
+.re-common-problem li {
+  color: #000000;
+  font-size: 0.26rem;
+  line-height: 0.96rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-common-problem li span {
+  float: left;
+}
+.re-common-problem li img {
+  float: right;
+  width: 0.14rem;
+  margin-top: 0.39rem;
+}
+.re-repayment-range {
+  width: 92%;
+  padding: 0 0.23rem;
+  color: #000000;
+}
+.re-repayment-range .re-problem-header {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  border-bottom: solid 0.01rem #f6f6f6;
+  font-size: 0.27rem;
+}
+.re-repayment-range .re-problem-main {
+  margin-top: 0.4rem;
+}
+.re-repayment-range .re-problem-main p {
+  line-height: 0.44rem;
+}
+.apartmentCoop {
+  overflow: visible!important;
+  height: 1.52rem!important;
+}
+.apartmentCoop span {
+  width: 100%;
+}
+.apartmentCoop input {
+  height: 0.71rem!important;
+  width: 100%!important;
+  margin: 0!important;
+}
+.rentInstallApply_btn {
+  margin-top: 1.1rem;
+}
+.rentInstallApply_btn p {
+  text-align: left;
+  height: 0.36rem;
+  line-height: 0.4rem;
+}
+.rentInstallApply_btn p input {
+  width: 0.21rem;
+  height: 0.21rem;
+  border: 1px solid #b7b7b7;
+  margin-right: 0.13rem;
+}
+.rentInstallApply_btn p input.select:after {
+  position: relative;
+  left: 0.04rem;
+  display: block;
+  content: '';
+  width: 0.06rem;
+  height: 0.11rem;
+  border: 2px solid #5ac25f;
+  border-top: none;
+  border-left: none;
+  transform: rotate(30deg);
+}
+.rentInstallApply {
+  position: relative;
+}
+.rentInstallApply .rentInstallApply_select {
+  font-size: 0.28rem;
+  overflow: visible!important;
+}
+.rentInstallApply .rentInstallApply_select .rentInstallApply_selectval {
+  display: inline-block;
+  width: 60%;
+  float: right;
+  margin-left: 0.2rem;
+  color: #000000;
+  background: url(/build/images/basicInfo/arrowdown.png) no-repeat right center;
+  background-size: 0.24rem;
+}
+.rentInstallApply .rentInstallApply_selectlist {
+  position: absolute;
+  background: #ffffff;
+  z-index: 1;
+  width: 100%;
+  color: #000000;
+  border: 1px solid #dcdcdc;
+}
+.rentInstallApply .rentInstallApply_selectlist li {
+  height: 0.53rem;
+  line-height: 0.53rem;
+  font-size: 0.26rem;
+  padding: 0 5%;
+}
+.rentInstallApply .rentInstallApply_selectlist li.active {
+  background: #5ac25f;
+  color: #ffffff;
+}
+.rentInstallApply .rentInstallApply_select1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.rentInstallApply .rentInstallApply_select1 p {
+  font-size: 0.28rem;
+  width: 49%;
+  height: 0.73rem;
+  line-height: 0.73rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.rentInstallApply .rentInstallApply_select1 p i.rentInstallApply_selectval {
+  display: inline-block;
+  width: 46%;
+  margin-left: 0.2rem;
+  color: #000000;
+  background: url(/build/images/basicInfo/arrowdown.png) no-repeat right center;
+  background-size: 0.24rem;
+}
+.rentInstallApply div.rentInstallApply_selectCity {
+  height: 0;
+}
+.rentInstallApply div.rentInstallApply_selectCity ul {
+  width: 50%;
+}
+.rentInstallApply div.rentInstallApply_selectCity ul.rentInstallApply_select1listr {
+  margin-left: 50%;
+}
+.rentInstallApply .rentInstallApply_selectval {
+  margin: 0!important;
+}
+.re-setAutoBtn {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  padding: 0 4%;
+  color: #000000;
+  font-size: 0.26rem;
+  border-bottom: 1px solid #f2f2f2;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.re-bindCardListTop {
+  height: 0.21rem;
+  background: #f6f6f6;
+}
+.re-bindCardList {
+  color: #000000;
+  border-top: 1px solid #f2f2f2;
+  height: 100%;
+}
+.re-bindCardList li {
+  padding: 0 4%;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 0.26rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.re-bindCardList li i {
+  color: #f46d23;
+}
+.re-bindCardList li:nth-last-child(1) {
+  border: 0;
+}
+.re-bindCardListBottom {
+  color: #a0a0a0;
+  font-size: 0.26rem;
+  position: absolute;
+  bottom: 0.4rem;
+  width: 100%;
+  text-align: center;
+}
+.re-autoPayCheck + label {
+  background-color: #ffffff;
+  border-radius: 22px;
+  display: inline-block;
+  position: relative;
+  top: 0.2rem;
+  transition: all 0.1s ease-in;
+  width: 0.9rem;
+  height: 0.55rem;
+}
+.re-autoPayCheck + label:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  transition: box-shadow 0.1s ease-in;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 22px;
+  box-shadow: inset 0 0 0 0 #eee, 0 0 1px rgba(0, 0, 0, 0.4);
+}
+.re-autoPayCheck + label:before {
+  content: ' ';
+  position: absolute;
+  background: #ffffff;
+  top: 0.02rem;
+  left: 0.02rem;
+  width: 0.51rem;
+  height: 0.51rem;
+  z-index: 999999;
+  transition: all 0.1s ease-in;
+  border-radius: 22px;
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.05), 0 0px 1px rgba(0, 0, 0, 0.3);
+}
+.re-autoPayCheck:checked + label:before {
+  content: ' ';
+  position: absolute;
+  left: 0.37rem;
+  border-radius: 22px;
+}
+.re-autoPayCheck:checked + label:after {
+  content: ' ';
+  position: absolute;
+  background: #5ac25f;
+}
+.re-modifyPwdOld {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  padding: 0 4%;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 0.26rem;
+}
+.re-modifyPwdOld span {
+  color: #a0a0a0;
+  padding-left: 0.15rem;
+}
+.re-modifyPwdOld input {
+  color: #000000;
+  margin-left: 0.3rem;
+}
+.re-modifyPwdTop {
+  height: 0.21rem;
+  background: #f6f6f6;
+  border-bottom: 1px solid #f2f2f2;
+}
+.re-modifyPwd {
+  color: #a0a0a0;
+  border-bottom: 1px solid #f2f2f2;
+  height: 100%;
+  padding: 0 4%;
+}
+.re-modifyPwd li {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 0.26rem;
+}
+.re-modifyPwd li span {
+  padding-left: 0.15rem;
+}
+.re-modifyPwd li input {
+  color: #000000;
+  margin-left: 0.3rem;
+}
+.re-modifyPwd li:nth-last-child(1) {
+  border: 0;
+}
+.re-modifyPwdBtn {
+  display: block;
+  width: 85%;
+  height: 0.89rem;
+  line-height: 0.89rem;
+  font-size: 0.28rem;
+  background: #f46d23;
+  color: #ffffff;
+  border: solid 0;
+  border-radius: 7px;
+  margin: 0.86rem auto;
+}
+.re-setting {
+  color: #000000;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 0 4%;
+}
+.re-setting li {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 0.26rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.re-setting li i {
+  color: #a0a0a0;
+}
+.re-setting li:nth-last-child(1) {
+  border: 0;
+}
+.re-settingGrey {
+  height: 0.21rem;
+  background: #f6f6f6;
+}
+.re-settingBtn {
+  border: 0;
+  background: #ffffff;
+  color: #f46d23;
+  text-align: center;
+  width: 100%;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  font-size: 0.26rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+.re-change-bindings {
+  overflow: hidden;
+}
+.re-change-bindings .re-changetop {
+  width: 100%;
+  height: 1.2rem;
+  text-align: center;
+  position: relative;
+  padding: 0 0.1rem;
+  top: 0.63rem;
+}
+.re-change-bindings .re-changetop img {
+  width: 4.82rem;
+  height: 0.57rem;
+  position: absolute;
+  left: 0.78rem;
+  top: 0rem;
+}
+.re-change-bindings .re-changetop li {
+  color: #a0a0a0;
+  float: left;
+  font-size: 0.22rem;
+  margin: 0.77rem 0.45rem;
+}
+.re-change-bindings .re-changetop li:nth-child(2) {
+  color: #f46d23;
+}
+.re-change-bindings .re-unbundling-success .re-enter-code {
+  padding-top: 0.95rem;
+}
+.re-change-bindings .re-unbundling-success p {
+  width: 5.6rem;
+  margin-top: -1.2rem;
+  font-size: 0.24rem;
+  text-align: left;
+}
+.re-change-bindings .re-unbundling-success p span {
+  width: 0.63rem;
+  height: 0.4rem;
+  background: #c9c9c9;
+  text-align: center;
+  float: right;
+  border-radius: 0.1rem;
+  color: #ffffff;
+}
+.re-change-bindings .re-login-footer {
+  margin-top: 1.37rem;
+}
+.re-about {
+  background: url(../../../build/images/re-aboutbg.png) no-repeat;
+  background-size: 100%;
+  padding: 0 0.23rem;
+  padding-top: 0.72rem;
+}
+.re-about .re-about-header {
+  width: 6rem;
+  height: 0.9rem;
+  background: url(../../../build/images/re-about-headbg.png) no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+}
+.re-about .re-num-time {
+  color: #000000;
+  text-align: center;
+  margin: 0.28rem 0;
+}
+.re-about .re-num-time p:nth-child(1) {
+  font-size: 0.34rem;
+}
+.re-about .re-num-time p:nth-child(2) {
+  font-size: 0.23rem;
+  line-height: 0.48rem;
+}
+.re-about .re-about-main {
+  width: 92.8%;
+  margin: 0 auto;
+  background: #73e0d4;
+  border-radius: 0.2rem;
+}
+.re-about .re-about-main .re-introduce {
+  height: 0.69rem;
+  position: relative;
+}
+.re-about .re-about-main .re-introduce p {
+  width: 1.87rem;
+  text-align: center;
+  font-size: 0.37rem;
+  font-weight: 600;
+  position: absolute;
+  top: 0.42rem;
+  left: 1.9rem;
+  background: #73e0d4;
+  z-index: 99;
+  color: #e8382c;
+}
+.re-about .re-about-main .re-introduce hr {
+  position: absolute;
+  bottom: 0;
+}
+.re-about .re-about-main .re-introduce-main {
+  padding: 0rem 0.33rem;
+  padding-top: 0.11rem;
+  text-align: center;
+  color: #000000;
+}
+.re-about .re-about-main .re-introduce-main p {
+  margin: 0.42rem 0;
+  line-height: 0.43rem;
+  font-size: 0.23rem;
+}
+.re-about .re-about-main .re-introduce-main iframe {
+  height: 3.13rem;
+  margin-top: 0.63rem;
+  margin-bottom: 0.9rem;
+}
+.re-about .re-about-main .re-introduce-main img {
+  width: 100%;
+  margin-top: 0.69rem;
+  margin-bottom: 0.5rem;
+}
+.re-about .re-about-footer {
+  text-align: center;
+  font-size: 0.23rem;
+  color: #000000;
+  line-height: 0.7rem;
+}
+.re-enter-code .re-changetop {
+  width: 100%;
+  height: 1.2rem;
+  text-align: center;
+  position: relative;
+  top: 0.63rem;
+}
+.re-enter-code .re-changetop img {
+  width: 4.82rem;
+  height: 0.57rem;
+  position: absolute;
+  left: 0.55rem;
+  top: 0rem;
+}
+.re-enter-code .re-changetop li {
+  color: #f46d23;
+  float: left;
+  font-size: 0.22rem;
+  margin-right: 0.9rem;
+  margin-top: 0.77rem;
+}
+.re-enter-code .re-changetop li:nth-child(2) {
+  margin-left: 0.25rem;
+}
+.re-enter-code .re-changetop li:nth-child(4) {
+  margin-right: 0rem;
+}
+.re-enter-code .re-unbundling-success .re-enter-code {
+  padding-top: 0.95rem;
+}
+.re-enter-code .re-unbundling-success p {
+  width: 5.6rem;
+  margin-top: -1.2rem;
+  font-size: 0.24rem;
+  text-align: left;
+}
+.re-enter-code .re-unbundling-success p span {
+  width: 0.63rem;
+  height: 0.4rem;
+  background: #c9c9c9;
+  text-align: center;
+  float: right;
+  border-radius: 0.1rem;
+  color: #ffffff;
+}
+.re-enter-code .re-login-footer {
+  margin-top: 1.37rem;
+}
+.re-enter-newnum {
+  overflow: hidden;
+}
+.re-enter-newnum .re-changetop {
+  width: 100%;
+  height: 1.2rem;
+  text-align: center;
+  position: relative;
+  padding: 0 0.1rem;
+  top: 0.63rem;
+}
+.re-enter-newnum .re-changetop img {
+  width: 4.82rem;
+  height: 0.57rem;
+  position: absolute;
+  left: 0.78rem;
+  top: 0rem;
+}
+.re-enter-newnum .re-changetop li {
+  color: #a0a0a0;
+  float: left;
+  font-size: 0.22rem;
+  margin: 0.77rem 0.45rem;
+}
+.re-enter-newnum .re-changetop li:nth-child(2) {
+  color: #f46d23;
+}
+.re-enter-newnum .re-changetop li:nth-child(3) {
+  color: #f46d23;
+}
+.re-enter-newnum .re-code-success .re-enter-number {
+  width: 5.58rem;
+  padding-top: 0.95rem;
+  border-bottom: solid 0.02rem #dcdcdc;
+  margin: 0 auto;
+}
+.re-enter-newnum .re-code-success .re-enter-number input {
+  width: 100%;
+  height: 0.5rem;
+  font-size: 0.27rem;
+}
+.re-enter-newnum .re-code-success p {
+  width: 5.58rem;
+  margin: 0.45rem auto;
+  font-size: 0.24rem;
+  text-align: left;
+  color: #000000;
+  text-align: center;
+}
+.re-enter-newnum .re-code-success p span {
+  width: 0.63rem;
+  height: 0.4rem;
+  background: #c9c9c9;
+  text-align: center;
+  float: right;
+  border-radius: 0.1rem;
+  color: #ffffff;
+}
+.re-enter-newnum .re-login-footer {
+  margin-top: 1.37rem;
+}
+.re-set-autorepayment {
+  background: #f6f6f6;
+}
+.re-set-autorepayment .re-user-message {
+  width: 92.5%;
+  color: #000000;
+  border-bottom: solid 0.01rem #f6f6f6;
+  margin-bottom: 0.21rem;
+  background: #ffffff;
+  padding: 0 0.23rem;
+}
+.re-set-autorepayment .re-user-message li {
+  font-size: 0.27rem;
+  width: 91.5%;
+  padding: 0 0.27rem;
+  line-height: 0.95rem;
+  background: #ffffff;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-set-autorepayment .re-user-message li span:nth-child(1) {
+  color: #a0a0a0;
+  float: left;
+}
+.re-set-autorepayment .re-user-message li span:nth-child(2) {
+  float: right;
+}
+.re-set-autorepayment .re-user-message li img {
+  float: right;
+  width: 0.14rem;
+  margin-top: 0.37rem;
+}
+.re-set-autorepayment .re-user-message li:nth-child(3) {
+  border-bottom: solid 0;
+}
+.re-set-autorepayment .re-user-bankmessage {
+  width: 92.5%;
+  color: #000000;
+  border-bottom: solid 0.01rem #f6f6f6;
+  background: #ffffff;
+  padding: 0 0.23rem;
+}
+.re-set-autorepayment .re-user-bankmessage li {
+  font-size: 0.27rem;
+  width: 91.5%;
+  padding: 0 0.27rem;
+  line-height: 0.95rem;
+  background: #ffffff;
+  border-bottom: solid 0.01rem #f6f6f6;
+}
+.re-set-autorepayment .re-user-bankmessage li img {
+  float: right;
+  width: 0.14rem;
+  margin-top: 0.37rem;
+}
+.re-set-autorepayment .re-user-bankmessage li:nth-child(3) {
+  border-bottom: solid 0;
+}
+.re-set-autorepayment .re-login-footer {
+  padding: 0.96rem 0;
+  margin: 0;
+>>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
 }

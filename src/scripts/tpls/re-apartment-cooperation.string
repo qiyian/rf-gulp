@@ -1,0 +1,32 @@
+<div class="re-header">
+  <img src="/build/images/re-logo.png" alt="" />
+</div>
+<div class="re-main">
+  <div class="re-ipt">
+    <div>
+      <span>输入联系姓名</span>
+      <input type="text" />
+    </div>
+    <div>
+      <span>输入联系电话</span>
+      <input type="text" />
+    </div>
+    <div class="apartmentCoop">
+      <span>输入详情内容</span>
+      <input type="text" />
+    </div>
+  </div>
+  <div class="re-login-footer">
+    <a class="re-submit-btn" href="javascript:void(0)">
+      <span>完成登陆</span>
+    </a>
+  </div>
+</div>
+<div class="re-mask re-hide"></div>
+<div class="re-modalBox re-hide">
+  <h1 class="re-modalLogo">
+    <img src="/build/images/re-logoH.png" alt="" />
+  </h1>
+  <p class="re-modalcontent">感谢您提交你找我租公寓合作，客服人员会尽快和你联系！点击确定返回首页</p>
+  <button class="re-modalBtn">确定</button>
+</div>

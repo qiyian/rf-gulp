@@ -1,0 +1,11 @@
+<div class="re-pay-status">
+				<img src="build/images/re-pay-success.png"/>
+				<p>还款交易成功，等待银行处理</p>
+				<p>本次交易2000,00元,结果会短信通知您</p>
+			
+		</div>
+		<div class="re-login-footer">
+			<a class="re-submit-btn" href="##">
+				<span>返回首页</span>
+			</a>
+		</div>

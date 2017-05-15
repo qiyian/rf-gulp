@@ -45,7 +45,7 @@
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(56);
+	module.exports = __webpack_require__(98);
 
 
 /***/ }),
@@ -74,25 +74,25 @@
 
 /***/ }),
 
-/***/ 56:
+/***/ 98:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	__webpack_require__(57);
+	__webpack_require__(99);
 
 
 
 /***/ }),
 
-/***/ 57:
+/***/ 99:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	var str = __webpack_require__(58);
+	var str = __webpack_require__(100);
 
 	var common = __webpack_require__(4);
 
@@ -102,7 +102,7 @@
 
 /***/ }),
 
-/***/ 58:
+/***/ 100:
 /***/ (function(module, exports) {
 
 	module.exports = "<div class=\"re-header\">  <img src=\"/build/images/re-logo.png\" alt=\"\" /></div><div class=\"re-main\">  <div class=\"re-ipt\">    <div>      <span>设置登录密码</span>      <input type=\"text\" />    </div>    <p>密码格式为6-16位数字，字母或符号，不允许有空格</p>  </div>  <div class=\"re-login-footer\">    <a class=\"re-submit-btn\" href=\"##\">      <span>完成登录</span>    </a>  </div></div>"

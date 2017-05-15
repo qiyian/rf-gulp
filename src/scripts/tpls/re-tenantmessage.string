@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+<div class="re-persion-massage">
+  <div class="re-persion">
+    <p class="re-persion-header">
+        <i>123</i>
+        <span>房东信息</span>
+      </p>
+      <ul class="re-persion-main">
+        <li><span>房东</span><span>轩轩公寓管理有限公司</span></li>
+        <li><span>收款卡号</span><span>6210811234567890304</span></li>
+      </ul>
+  </div>
+
+  </div>
+=======
 <div class="re-persion-massage">
   <div class="re-persion">
     <p class="re-persion-header">
@@ -75,3 +90,4 @@
       <a class="re-submit-btn" href="###">信息无误</a>
    </div>
   </div>
+>>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f

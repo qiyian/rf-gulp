@@ -1,0 +1,16 @@
+<div class="re-unbundling-success">
+	<p>已向尾号0992发送短信验证码，输入验证码解绑银行卡</p>
+	<div class="re-enter-code">
+		<input type="number" />
+		<input type="number" />
+		<input type="number" />
+		<input type="number" />
+		<input type="number" />
+		<input type="number" />
+	</div>
+	<div class="re-login-footer">
+	    <a class="re-submit-btn" href="##">
+	      <span>确定</span>
+	    </a>
+	  </div>
+</div>

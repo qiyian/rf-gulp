@@ -45,7 +45,7 @@
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(50);
+	module.exports = __webpack_require__(89);
 
 
 /***/ }),
@@ -74,25 +74,25 @@
 
 /***/ }),
 
-/***/ 50:
+/***/ 89:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	__webpack_require__(51);
+	__webpack_require__(90);
 
 
 
 /***/ }),
 
-/***/ 51:
+/***/ 90:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	var str = __webpack_require__(52);
+	var str = __webpack_require__(91);
 
 	var common = __webpack_require__(4);
 
@@ -102,7 +102,7 @@
 
 /***/ }),
 
-/***/ 52:
+/***/ 91:
 /***/ (function(module, exports) {
 
 	module.exports = "<div class=\"re-personal-data\">  <div class=\"re-personmian\">    <div class=\"re-phone\">      <p>手机号码</p>      <span>15726671992</span>    </div>    <div class=\"re-name\">      <p>真实姓名</p>      <span>郭棒棒</span>    </div>  </div>  <div class=\"re-personmian\">    <div class=\"re-phone\">      <p>证件类型</p>      <span>身份证</span>    </div>    <div class=\"re-name\">      <p>证件号码</p>      <span>142326099204037418</span>    </div>  </div></div>"

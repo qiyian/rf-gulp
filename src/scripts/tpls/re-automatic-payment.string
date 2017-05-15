@@ -1,0 +1,17 @@
+<section class="re-setAutoBtn">
+  <span>开启自动扣款</span>
+  <input type="checkbox" id="re-autoPayCheck" class="re-autoPayCheck" checked="checked"/>
+  <label for="re-autoPayCheck"></label>
+</section>
+<div class="re-bindCardListTop bodyGrey"></div>
+<ul class="re-bindCardList">
+  <li>
+    <span>广发银行信用卡</span>
+    <i>解绑</i>
+  </li>
+  <li>
+    <span>广发银行信用卡</span>
+    <i>解绑</i>
+  </li>
+</ul>
+<p class="re-bindCardListBottom">常见问题</p>

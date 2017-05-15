@@ -1,0 +1,21 @@
+<div class="re-enter-newnum">
+	<ul class="re-changetop">
+		<img src="build/images/basicInfo/bgPage2.png" alt="" />
+		<li>获取验证码</li>
+		<li>输入新手机号</li>
+		<li>输入验证码</li>
+		<div class="re-clear"></div>
+	</ul>
+	<div class="re-code-success">
+		
+		<div class="re-enter-number">
+			<input type="number" />
+		</div>
+		<p>输入你要绑定的新手机号</p>
+		<div class="re-login-footer">
+		    <a class="re-submit-btn" href="##">
+		      <span>发送</span>
+		    </a>
+		  </div>
+	</div>
+</div>

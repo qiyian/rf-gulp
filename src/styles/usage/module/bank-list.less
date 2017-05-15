@@ -1,0 +1,28 @@
+.re-bank-list{
+    .color(@colorBlack);
+    .width(95.9%);
+    .padding(0 0.13rem);
+    li{
+        .borderBottom(0.01rem @colorRice);
+        .height(1.36rem);
+        .lineHeight(1.36rem);
+        img{
+            .float(left);
+            .width(1.1rem);
+            .margin(0.1rem 0.33rem);
+        };
+        div{
+          .lineHeight(0.4rem);  
+          .float(left);
+          .marginLeft(0.35rem);
+          p:nth-child(1){
+              .fontSize(0.38rem);
+              .marginTop(0.2rem);
+          };
+          p:nth-child(2){
+              .fontSize(0.25rem);
+              .color(@colorGrey);
+          };
+        };
+    }
+}

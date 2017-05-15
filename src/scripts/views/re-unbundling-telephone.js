@@ -1,4 +1,4 @@
-var str = require('../tpls/re-unbundling-success.string');
+var str = require('../tpls/re-unbundling-telephone.string');
 
 var common = require('../utils/common.util.js');
 
