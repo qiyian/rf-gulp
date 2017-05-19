@@ -1,27 +1,13 @@
-<div class="re-contract-massage">
-	<div class="re-contract-main">
+<div class="re-contract-massage" ng-controller="contractmesCtrl" ng-app="contractmes">
+	<div class="re-contract-main" ng-repeat = "cm in cmlist">
 		<div>
 			<p>租期</p>
-			<p>2017-03-28至2017-03-28</p>
-			<p>进行中</p>
+			<p>{{cm.rent_period_from}}至{{cm.rent_period_to}}</p>
+			<p class="re-contStatus">{{cm.payoff_status?'进行中':'已结束'}}</p>
 		</div>
 		<div>
 			<p>租金</p>
-			<p>共10000.00元</p>
-			<p>
-				<img src="images/re-right.png"/>
-			</p>
-		</div>
-	</div>
-	<div class="re-contract-main">
-		<div>
-			<p>租期</p>
-			<p>2017-03-28至2017-03-28</p>
-			<p>已结束</p>
-		</div>
-		<div>
-			<p>租金</p>
-			<p>共10000.00元</p>
+			<p>共{{cm.contract_amt}}元</p>
 			<p>
 				<img src="images/re-right.png"/>
 			</p>

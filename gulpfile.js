@@ -5,7 +5,7 @@ var gulp = require('gulp');
 var webserver = require('gulp-webserver');
 
 // 引入 css 预处理 压缩 模块
-var sass = require('gulp-sass');
+//var sass = require('gulp-sass');
 var minifyCSS = require('gulp-minify-css');
 
 // 引入 js 模块化工具 gulp-webpack, 获得 js 文件名模块 vinyl-named, js 压缩模块
@@ -36,10 +36,16 @@ var sourcemaps = require('gulp-sourcemaps');
 // 自动添加CSS3浏览器前缀
 var autoprefixer = require('gulp-autoprefixer');
 
+// gulp-connect
+var proxy = require('http-proxy-middleware');
+var connect = require('gulp-connect');
+
 // 启动 webserver
 gulp.task('webserver', function () {
   gulp.src('./')
     .pipe(webserver({
+      //host: '192.168.1.74',
+
       host: 'localhost',
       port: 90,
       directoryListing: {
@@ -47,42 +53,17 @@ gulp.task('webserver', function () {
         path: './'
       },
       livereload: true,
-
-      // mock 数据
-      middleware: function (req, res, next) {
-        var urlObj = url.parse(req.url, true);
-        switch (urlObj.pathname) {
-          case '/api/list.php':
-            res.setHeader('Content-Type', 'application/json');
-            fs.readFile('./mock/list.json', function (err, data) {
-              res.end(data);
-            });
-            return;
-          case '/api/listRefresh.php':
-            res.setHeader('Content-Type', 'application/json');
-            fs.readFile('./mock/list_refresh.json', function (err, data) {
-              res.end(data);
-            });
-            return;
-          case '/api/listMore.php':
-            res.setHeader('Content-Type', 'application/json');
-            fs.readFile('./mock/list_more.json', function (err, data) {
-              res.end(data);
-            });
-            return;
-        }
-        next();
-      }
+      // middleware: [proxy('/api',{target:'https://localhost:8443/',changeOrigin:true})]
     }))
 });
 
 // css 预处理 和 压缩
-gulp.task('scss', function () {
-  gulp.src('./src/styles/usage/page/*.scss')
-    .pipe(sass().on('error', sass.logError))
-    // .pipe(minifyCSS())
-    .pipe(gulp.dest('./build/prd/styles/'));
-});
+//gulp.task('scss', function () {
+//  gulp.src('./src/styles/usage/page/*.scss')
+//    .pipe(sass().on('error', sass.logError))
+//    // .pipe(minifyCSS())
+//    .pipe(gulp.dest('./build/prd/styles/'));
+//});
 
 // less 预处理
 gulp.task('less', function () {
@@ -92,6 +73,7 @@ gulp.task('less', function () {
       browsers: ['last 2 versions'],         // 主流浏览器的最新两个版本
       cascade: false        // 是否美化属性值
     }))
+        .pipe(minifyCSS())
     .pipe(gulp.dest('./build/prd/styles/'));
 });
 
@@ -255,6 +237,16 @@ gulp.task('copy-index', function () {
     .pipe(gulp.dest('./build'));
 });
 
+//拷贝 fonts文件夹到 build
+gulp.task('copy-fonts',function(){
+    gulp.src('./src/styles/usage/core/fonts/*').pipe(gulp.dest('./build/prd/styles/fonts/'));
+});
+
+//拷贝 libs文件夹到 build
+gulp.task('copy-libs',function(){
+    gulp.src('./src/scripts/libs/*').pipe(gulp.dest('./build/prd/scripts/lib/'));
+});
+
 // 拷贝 images 到 build 文件夹
 gulp.task('copy-images', function () {
   gulp.src('./images/**/*')
@@ -283,7 +275,7 @@ gulp.task('scriptmaps', function() {
 gulp.task('watch', function () {
   gulp.watch('./*.html', ['copy-index']);
   gulp.watch('./images/**/*', ['copy-images']);
-  gulp.watch('./src/styles/**/*', ['scss']);
+  //gulp.watch('./src/styles/**/*', ['scss']);
   gulp.watch('./src/styles/**/*', ['less']);
   gulp.watch('./src/scripts/**/*', ['packjs']);
   // gulp.watch('./src/scripts/**/*', ['packdevjs']);
@@ -297,16 +289,16 @@ gulp.task('default', ['watch', 'webserver'], function () {
 });
 
 // gulp local
-gulp.task('local', ['copy-index','copy-images','less','packdevjs','packjs'], function () {
-  console.log('生产环境打包');
+gulp.task('local', ['copy-index','copy-images','copy-fonts','copy-libs','less','packdevjs','packjs'], function () {
+  console.log('本地环境打包');
 });
 
 // gulp test
-gulp.task('test', ['copy-index','copy-images','less','packtestjs','packjs'], function () {
+gulp.task('test', ['copy-index','copy-images','copy-fonts','copy-libs','less','packtestjs','packjs'], function () {
   console.log('测试环境打包');
 });
 
 // gulp build
-gulp.task('build', ['copy-index','copy-images','less','packbuildjs','packjs'], function () {
-  console.log('正式库打包');
+gulp.task('build', ['copy-index','copy-images','copy-fonts','copy-libs','less','packbuildjs','packjs'], function () {
+  console.log('生产环境打包');
 });

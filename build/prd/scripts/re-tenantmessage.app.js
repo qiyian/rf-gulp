@@ -45,11 +45,7 @@
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
-	module.exports = __webpack_require__(20);
-=======
 	module.exports = __webpack_require__(123);
->>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
 
 
 /***/ }),
@@ -60,7 +56,6 @@
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-<<<<<<< HEAD
 	var common = {
 	  renderBody: function ($el, str) {
 	    $el.prepend(str);
@@ -71,88 +66,251 @@
 	  append: function ($el, str) {
 	    $el.append(str);
 	  },
+
+	   //common1  提示信息弹框
+	  alertError: function(info){
+	    $('body').append('<section class="re-alertLayout"></section><section class="re-alert">' + info + '</section>');
+	    $(".re-alertLayout,.re-alert").fadeOut(3000);
+	    setTimeout(function () {
+	        $(".re-alertLayout,.re-alert").remove();
+	    }, 3000);
+	  },
+
+	  // common2   身份认证无效、过期跳转登录页面
+	  clearToLogin: function(){
+	    localStorage.clear();
+	    window.location.href = "re-login-account.html";
+	  },
+
+	  // common3 清空input框
+	  clearInput: function(val){
+	    $(val).val("");
+	  },
+	  //input为空时从前往后输入
+				judgeNull:function (data){
+					$(".re-enter-code input").each(function(){
+					//点击input 空的获取焦点
+						$(this).on("click",function(){
+							$(data).blur();
+							if($(data+":nth-child(1)").val()==""){
+								$(data+":nth-child(1)").focus();
+
+							}else if($(data+":nth-child(2)").val()==""){
+								$(data+":nth-child(2)").focus();
+
+							}
+							else if($(data+":nth-child(3)").val()==""){
+								$(data+":nth-child(3)").focus();
+
+							}
+							else if($(data+":nth-child(4)").val()==""){
+								$(data+":nth-child(4)").focus();
+
+							}
+							else if($(data+":nth-child(5)").val()==""){
+								$(data+":nth-child(5)").focus();
+
+							}else{
+								$(data+":nth-child(6)").focus();
+							}
+						})
+					})
+				},
+
+				//input内的值oninput事件时发生改变
+				inputLength:function (data2){
+					$(data2).on("input",function(){
+						if($(data2+":nth-child(1)").val()==""){
+							$(data2+":nth-child(1)").focus();
+							if($(data2+":nth-child(1)").val().length==1){
+								$(data2).blur();
+								$(data2+":nth-child(2)").focus();
+							}
+						}else if($(data2+":nth-child(2)").val()==""){
+							$(data2+":nth-child(2)").focus();
+							if($(data2+":nth-child(2)").val().length==1){
+								$(data2).blur();
+								$(data2+":nth-child(3)").focus();
+							}
+						}
+						else if($(data2+":nth-child(3)").val()==""){
+							$(data2+":nth-child(3)").focus();
+							if($(data2+":nth-child(3)").val().length==1){
+								$(data2+":nth-child(3)").blur();
+								$(data2+":nth-child(4)").focus();
+							}
+						}
+						else if($(data2+":nth-child(4)").val()==""){
+							$(data2+":nth-child(4)").focus();
+							if($(data2+":nth-child(5)").val().length==1){
+								$(data2+":nth-child(5)").blur();
+								$(data2+":nth-child(5)").focus();
+							}
+						}
+						else if($(data2+":nth-child(5)").val()==""){
+							$(data2+":nth-child(5)").focus();
+							if($(data2+":nth-child(6)").val().length==1){
+								$(data2+":nth-child(6)").focus();
+							}
+						}else if($(data2+":nth-child(6)").val()==""){
+							$(data2+":nth-child(6)").focus();
+							if($(data2+":nth-child(6)").val().length==1){
+								$(data2+":nth-child(6)").blur();
+							}
+						};
+					})
+
+
+
+
+
+				},
+				//监听删除键
+				del:function (data3){
+					$(data3).each(function(){
+						$(this).keydown(function(event){
+
+				          if (event.keyCode === 8){
+				          	if($(this).index()==5){
+								if($(this).val()==""){
+									$(this).val("");
+					          		$(this).blur();
+					             	$(this).prev().focus();
+								}else{
+									return
+								}
+							}
+				          	if($(this).val==""){
+				          		$(this).blur();
+				             	$(this).prev().focus();
+				             	$(this).prev().val("");
+				          	}else{
+				          		$(this).val("");
+				          		$(this).blur();
+				             	$(this).prev().focus();
+
+				          	}
+
+				          } ;
+
+				        });
+					})
+				}
+
 	};
 
-	module.exports = common;
-=======
-	var common = {
-	  renderBody: function ($el, str) {
-	    $el.prepend(str);
-	  },
-	  inner: function ($el, str) {
-	    $el.html(str);
-	  },
-	  append: function ($el, str) {
-	    $el.append(str);
-	  },
-	};
 
 	module.exports = common;
->>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
+
+	reVersion = "1.0";
+	reAccessKey = localStorage.getItem("reAccessKey");
+	reOpenId="123";
+	reSceneId = "456";
 
 
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 20:
-=======
 /***/ 123:
->>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-<<<<<<< HEAD
-	__webpack_require__(21);
-=======
 	__webpack_require__(124);
->>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
 
 
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 21:
-=======
 /***/ 124:
->>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-<<<<<<< HEAD
-	var str = __webpack_require__(22);
-
-	var common = __webpack_require__(4);
-
-	common.renderBody($('body'), str);
-=======
 	var str = __webpack_require__(125);
 
 	var common = __webpack_require__(4);
 
 	common.renderBody($('body'), str);
->>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
+
+	var tenantmes = angular.module('tenantmes', [], function ($httpProvider) {
+	    // Use x-www-form-urlencoded Content-Type
+	    $httpProvider.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8';
+
+	    /**
+	     * The workhorse; converts an object to x-www-form-urlencoded serialization.
+	     * @param {Object} obj
+	     * @return {String}
+	     */
+	    var param = function (obj) {
+	        var query = '', name, value, fullSubName, subName, subValue, innerObj, i;
+
+	        for (name in obj) {
+	            value = obj[name];
+
+	            if (value instanceof Array) {
+	                for (i = 0; i < value.length; ++i) {
+	                    subValue = value[i];
+	                    fullSubName = name + '[' + i + ']';
+	                    innerObj = {};
+	                    innerObj[fullSubName] = subValue;
+	                    query += param(innerObj) + '&';
+	                }
+	            }
+	            else if (value instanceof Object) {
+	                for (subName in value) {
+	                    subValue = value[subName];
+	                    fullSubName = name + '[' + subName + ']';
+	                    innerObj = {};
+	                    innerObj[fullSubName] = subValue;
+	                    query += param(innerObj) + '&';
+	                }
+	            }
+	            else if (value !== undefined && value !== null)
+	                query += encodeURIComponent(name) + '=' + encodeURIComponent(value) + '&';
+	        }
+
+	        return query.length ? query.substr(0, query.length - 1) : query;
+	    };
+
+	    // Override $http service's default transformRequest
+	    $httpProvider.defaults.transformRequest = [function (data) {
+	        return angular.isObject(data) && String(data) !== '[object File]' ? param(data) : data;
+	    }];
+	});
+
+	tenantmes.controller('tenantmesCtrl', function ($scope, $http) {
+	    $http({
+	      url: reDomain + 'nzwz-bus/restapi/nzwz/contract/detail',
+	      method: "post",
+	      headers: {
+	        'Content-Type': 'application/x-www-form-urlencoded'
+	      },
+	      data: {
+	        api_version: reVersion,
+	        access_key: reAccessKey,
+	        apply_id: localStorage.getItem('reApplyId0')
+	      }
+	    }).success(function (response) {
+	      if (response.code == "000000000") {
+	        $scope.tm = response.data;
+	      }
+	      else {
+	        common.alertError(response.message);
+	      }
+	    });
+	})
 
 
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 22:
-/***/ (function(module, exports) {
-
-	module.exports = "<div class=\"re-persion-massage\">  <div class=\"re-persion\">    <p class=\"re-persion-header\">        <i>123</i>        <span>房东信息</span>      </p>      <ul class=\"re-persion-main\">        <li><span>房东</span><span>轩轩公寓管理有限公司</span></li>        <li><span>收款卡号</span><span>6210811234567890304</span></li>      </ul>  </div>  </div>"
-=======
 /***/ 125:
 /***/ (function(module, exports) {
 
-	module.exports = "<div class=\"re-persion-massage\">  <div class=\"re-persion\">    <p class=\"re-persion-header\">        <i>123</i>        <span>房东信息</span>      </p>      <ul class=\"re-persion-main\">        <li><span>房东</span><span>轩轩公寓管理有限公司</span><div class=\"re-clear\"></div></li>        <li><span>收款卡号</span><span>6210811234567890304</span><div class=\"re-clear\"></div></li>      </ul>  </div>  <div class=\"re-home-massage\">    <p class=\"re-home-header\">        <i>123</i>        <span>租房信息</span>      </p>      <ul class=\"re-home-main\">        <li>          <span>地址</span>          <span>北京市昌平区回龙观美唐小区202-A</span>          <div class=\"re-clear\"></div>        </li>        <li>          <span>租期</span>          <span>2017-03-08至2017-03-28</span>          <p>共12个月</p>          <div class=\"re-clear\"></div>        </li>        <li>          <span>月租金</span>          <span>1000.00元/月</span>          <div class=\"re-clear\"></div>        </li>        <li><span>服务费</span>          <span>0元/月</span>          <div class=\"re-clear\"></div>        </li>      </ul>  </div>  <div class=\"re-detailed\">      <div class=\"re-detailed-header\">        <span>还款明细</span>        <img src=\"images/re-up.png\"/>      </div>      <ul class=\"re-detailed-main re-hide\">        <li>          <span>期次</span>          <span>应还金额</span>          <span>应还时间</span>        </li>        <li>          <span>第一期</span>          <span>1000.00元/月</span>          <span>2017-03-29</span>        </li>        <li>          <span>第二期</span>          <span>1000.00元/月</span>          <span>2017-03-29</span>        </li>        <li>          <span>第三期</span>          <span>1000.00元/月</span>          <span>2017-03-29</span>        </li>        <li>          <span>第四期</span>          <span>1000.00元/月</span>          <span>2017-03-29</span>        </li>      </ul>   </div>   <div class=\"re-detailed-footer\">      <a class=\"re-submit-btn\" href=\"###\">信息无误</a>   </div>  </div>"
->>>>>>> 934be772a350d800986b5d3201596b3d1cb1f13f
+	module.exports = "<div class=\"re-persion-massage\" ng-controller=\"tenantmesCtrl\" ng-app=\"tenantmes\">  <div class=\"re-persion\">    <p class=\"re-persion-header\">        <i>123</i>        <span>房东信息</span>      </p>      <ul class=\"re-persion-main\">        <li><span>房东</span><span>{{tm.thirdparty_name}}</span><div class=\"re-clear\"></div></li>        <li><span>收款卡号</span><span>{{tm.thirdparty_cardno}}</span><div class=\"re-clear\"></div></li>      </ul>  </div>  <div class=\"re-home-massage\">    <p class=\"re-home-header\">        <i>123</i>        <span>租房信息</span>      </p>      <ul class=\"re-home-main\">        <li>          <span>地址</span>          <span>{{tm.rent_address}}</span>          <div class=\"re-clear\"></div>        </li>        <li>          <span>租期</span>          <span>{{tm.rent_period_from}}至{{tm.rent_period_to}}</span>          <p>共{{tm.rent_period_months}}个月</p>          <div class=\"re-clear\"></div>        </li>        <li>          <span>月租金</span>          <span>{{tm.month_fee}}元/月</span>          <div class=\"re-clear\"></div>        </li>        <li><span>服务费</span>          <span>{{tm.service_month_fee}}元/月</span>          <div class=\"re-clear\"></div>        </li>      </ul>  </div>  <div class=\"re-detailed\">      <div class=\"re-detailed-header\">        <span>还款明细</span>        <img src=\"images/re-up.png\"/>      </div>      <ul class=\"re-detailed-main re-hide\">        <li>          <span>期次</span>          <span>应还金额</span>          <span>应还时间</span>        </li>        <li>          <span>第一期</span>          <span>1000.00元/月</span>          <span>2017-03-29</span>        </li>        <li>          <span>第二期</span>          <span>1000.00元/月</span>          <span>2017-03-29</span>        </li>        <li>          <span>第三期</span>          <span>1000.00元/月</span>          <span>2017-03-29</span>        </li>        <li>          <span>第四期</span>          <span>1000.00元/月</span>          <span>2017-03-29</span>        </li>      </ul>   </div>   <div class=\"re-detailed-footer\">      <a class=\"re-submit-btn\" href=\"###\">信息无误</a>   </div>  </div>"
 
 /***/ })
 

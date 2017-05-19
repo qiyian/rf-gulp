@@ -1,12 +1,12 @@
 <div class="re-unbundling-success">
 	<p>已向尾号0992发送短信验证码，输入验证码解绑银行卡</p>
-	<div class="re-enter-code">
-		<input type="number" />
-		<input type="number" />
-		<input type="number" />
-		<input type="number" />
-		<input type="number" />
-		<input type="number" />
+	<div class="re-enter-code code-page4">
+		<input type="tel" maxlength = "1" />
+		<input type="tel" maxlength = "1" />
+		<input type="tel" maxlength = "1" />
+		<input type="tel" maxlength = "1"/>
+		<input type="tel" maxlength = "1" />
+		<input type="tel" maxlength = "1" />
 	</div>
 	<div class="re-login-footer">
 	    <a class="re-submit-btn" href="##">

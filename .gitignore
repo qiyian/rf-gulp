@@ -1,0 +1,8 @@
+# build directories
+build/
+
+# Dependency directories
+node_modules
+
+# editor cache
+.project
